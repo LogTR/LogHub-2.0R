@@ -1,0 +1,2540 @@
+{
+  "statistics": {
+    "total_modifications": 493,
+    "by_dataset": {
+      "Apache": {
+        "total": 4
+      },
+      "BGL": {
+        "total": 16
+      },
+      "HDFS": {
+        "total": 2
+      },
+      "HPC": {
+        "total": 5
+      },
+      "Hadoop": {
+        "total": 32
+      },
+      "HealthApp": {
+        "total": 14
+      },
+      "Linux": {
+        "total": 81
+      },
+      "Mac": {
+        "total": 101
+      },
+      "OpenSSH": {
+        "total": 2
+      },
+      "OpenStack": {
+        "total": 3
+      },
+      "Spark": {
+        "total": 19
+      },
+      "Thunderbird": {
+        "total": 205
+      },
+      "Zookeeper": {
+        "total": 9
+      }
+    },
+    "datasets_count": 13
+  },
+  "modifications": {
+    "Apache": [
+      {
+        "event_id": "E10",
+        "original": "env.createBean2(): Factory error creating <*> (<*>, <*>)",
+        "modified": "env.createBean2(): Factory error creating <*> ( <*>, <*>)"
+      },
+      {
+        "event_id": "E21",
+        "original": "config.update(): Can't create <*>",
+        "modified": "config.update(): Can't create <*>:<*>"
+      },
+      {
+        "event_id": "E8",
+        "original": "Apache/<*> configured -- resuming normal operations",
+        "modified": "Apache/<*> (<*>) configured -- resuming normal operations"
+      },
+      {
+        "event_id": "E1",
+        "original": "[client <*>] mod_security: Access denied with code <*>. Error reading POST data, error_code=<*> [hostname <*>] [uri <*>]",
+        "modified": "[client <*>] mod_security: Access denied with code <*>. Error reading POST data, error_code=<*> [hostname \"<*>\"] [uri \"<*>\"]"
+      }
+    ],
+    "BGL": [
+      {
+        "event_id": "E94",
+        "original": "<*> ddr errors(s) detected and corrected on rank <*>, symbol <*> bit <*>",
+        "modified": "<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
+      },
+      {
+        "event_id": "E255",
+        "original": "d-cache flush parity error.......<*>",
+        "modified": "d-cache flush parity error........<*>"
+      },
+      {
+        "event_id": "E104",
+        "original": "ciod: for node <*> read continuation request but ioState is <*>",
+        "modified": "ciod: for node <*>, read continuation request but ioState is <*>"
+      },
+      {
+        "event_id": "E214",
+        "original": "correctable error detected in directory <*>",
+        "modified": "correctable error detected in directory <*>......<*>"
+      },
+      {
+        "event_id": "E216",
+        "original": "correctable error detected in EDRAM bank <*>",
+        "modified": "correctable error detected in EDRAM bank <*>.....<*>"
+      },
+      {
+        "event_id": "E46",
+        "original": "PrepareForService shutting down NodeCard(<*>, <*>, <*>, <*>, <*>) as part of Service Action <*>",
+        "modified": "PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>"
+      },
+      {
+        "event_id": "E133",
+        "original": "BglIdoChip table has <*> IDOs with the same IP address <*>",
+        "modified": "BglIdoChip table has <*> IDOs with the same IP address (<*>)"
+      },
+      {
+        "event_id": "E57",
+        "original": "MidplaneSwitchController::parityAlignment() pap failed: <*> status=<*>",
+        "modified": "MidplaneSwitchController::parityAlignment() pap failed: <*>, status=<*>"
+      },
+      {
+        "event_id": "E85",
+        "original": "Node card VPD check: missing <*>, VPD ecid <*> in processor card slot <*>",
+        "modified": "Node card VPD check: missing <*> node, VPD ecid <*> in processor card slot <*>"
+      },
+      {
+        "event_id": "E47",
+        "original": "rts: bad message header: cpu <*> invalid (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",
+        "modified": "rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>"
+      },
+      {
+        "event_id": "E101",
+        "original": "PrepareForService is being done on this Midplane (<*>, <*>, <*>) by <*>",
+        "modified": "PrepareForService is being done on this Midplane (mLctn(<*>), mCardSernum(<*>), iWhichCardsToPwrOff(<*>)) by <*>"
+      },
+      {
+        "event_id": "E222",
+        "original": "round toward zero...................<*>",
+        "modified": "round toward zero........................<*>"
+      },
+      {
+        "event_id": "E52",
+        "original": "Missing reverse cable: Cable <*> is present BUT the reverse cable <*> is missing",
+        "modified": "Missing reverse cable: Cable <*> (<*>) --> <*> (<*>) is present BUT the reverse cable <*> (<*>) --> <*> (<*>) is missing"
+      },
+      {
+        "event_id": "E54",
+        "original": "power module status fault detected on node card. status registers are: <*>",
+        "modified": "power module status fault detected on node card. status registers are: <*>/<*>/<*>/<*>"
+      },
+      {
+        "event_id": "E25",
+        "original": "rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",
+        "modified": "rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>"
+      },
+      {
+        "event_id": "E217",
+        "original": "disable write lines <*>..................<*>",
+        "modified": "disable write lines <*>:<*>..................<*>"
+      }
+    ],
+    "HDFS": [
+      {
+        "event_id": "E34",
+        "original": "BLOCK* NameSystem.allocateBlock: <*> <*>",
+        "modified": "BLOCK* NameSystem.allocateBlock: <*>. <*>"
+      },
+      {
+        "event_id": "E6",
+        "original": "writeBlock <*> received exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*> ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>]",
+        "modified": "writeBlock <*> received exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*>. ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>]"
+      }
+    ],
+    "HPC": [
+      {
+        "event_id": "E32",
+        "original": "Temperature <*> exceeds warning threshold",
+        "modified": "Temperature (<*>) exceeds warning threshold"
+      },
+      {
+        "event_id": "E60",
+        "original": "Fan speeds ( <*> )",
+        "modified": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"
+      },
+      {
+        "event_id": "E61",
+        "original": "PSU status (<*> <*>)",
+        "modified": "PSU status ( <*> <*> )"
+      },
+      {
+        "event_id": "E48",
+        "original": "Failed subcommands <*>",
+        "modified": "Failed subcommands <*:list>  (可变长参数)"
+      },
+      {
+        "event_id": "E36",
+        "original": "inconsistent nodesets <*> <*> <ok> <*> <*> <ok>",
+        "modified": "inconsistent nodesets <<*> <*> <ok>:list>  (可变长参数)"
+      }
+    ],
+    "Hadoop": [
+      {
+        "event_id": "E13",
+        "original": "Assigning container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: <*>, service: <*> }, ] to fast fail map",
+        "modified": "Assigning container Container: [ContainerId: <*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: <*>, service: <*> }, ] to fast fail map"
+      },
+      {
+        "event_id": "E128",
+        "original": "Starting Socket Reader <*> for port <*>",
+        "modified": "Starting Socket Reader #<*> for port <*>"
+      },
+      {
+        "event_id": "E130",
+        "original": "kvstart = <*>(<*>); kvend = <*>(<*>); length = <*>",
+        "modified": "kvstart = <*>(<*>); kvend = <*>(<*>); length = <*>/<*>"
+      },
+      {
+        "event_id": "E224",
+        "original": "Task <*> done.",
+        "modified": "Task '<*>' done."
+      },
+      {
+        "event_id": "E73",
+        "original": "fetcher#<*> about to shuffle output of map <*>: <*> len: <*> to DISK",
+        "modified": "fetcher#<*> about to shuffle output of map <*> decomp: <*> len: <*> to DISK"
+      },
+      {
+        "event_id": "E221",
+        "original": "Extract jar:<*> to <*>",
+        "modified": "Extract jar:<*>!/webapps/mapreduce to <*>"
+      },
+      {
+        "event_id": "E25",
+        "original": "getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",
+        "modified": "getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+      },
+      {
+        "event_id": "E16",
+        "original": "Socket Reader <*> for port <*> readAndProcess from client <*> threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]",
+        "modified": "Socket Reader <*> for port <*>: readAndProcess from client <*> threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]"
+      },
+      {
+        "event_id": "E185",
+        "original": "Result of canCommit for <*>",
+        "modified": "Result of canCommit for <*>:true"
+      },
+      {
+        "event_id": "E205",
+        "original": "<*> freed by fetcher#<*> in <*>",
+        "modified": "<*> freed by fetcher#<*> in <*>ms"
+      },
+      {
+        "event_id": "E184",
+        "original": "Saved output of task <*> to <*>",
+        "modified": "Saved output of task '<*>' to <*>"
+      },
+      {
+        "event_id": "E7",
+        "original": "Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: <*> destination host is: <*>",
+        "modified": "Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: \"<*>\"; destination host is: \"<*>\":<*>;"
+      },
+      {
+        "event_id": "E57",
+        "original": "Failed to renew lease for <*> for <*> seconds. Will retry shortly ...",
+        "modified": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."
+      },
+      {
+        "event_id": "E52",
+        "original": "Diagnostics report from <*>: java.io.IOException: Spill failed",
+        "modified": "Diagnostics report from <*>: Error: java.io.IOException: Spill failed"
+      },
+      {
+        "event_id": "E154",
+        "original": "Added global filter <*> (class=<*>)",
+        "modified": "Added global filter '<*>' (class=<*>)"
+      },
+      {
+        "event_id": "E50",
+        "original": "Adding <*> tokens and <*> secret keys for NM use for launching container",
+        "modified": "Adding #<*> tokens and #<*> secret keys for NM use for launching container"
+      },
+      {
+        "event_id": "E151",
+        "original": "Reporting fetch failure for <*>.",
+        "modified": "Reporting fetch failure for <*> to jobtracker."
+      },
+      {
+        "event_id": "E22",
+        "original": "IPC Server handler <*> on <*>, call statusUpdate(<*>), rpc version=<*>, client version=<*>, methodsFingerPrint=<*> from <*> Call#<*> Retry#<*>: output error",
+        "modified": "IPC Server handler <*> on <*>, call statusUpdate(<*>, <*>), rpc version=<*>, client version=<*>, methodsFingerPrint=<*> from <*> Call#<*> Retry#<*>: output error"
+      },
+      {
+        "event_id": "E40",
+        "original": "MRAppMaster launching normal, non-uberized, multi-container job <*>",
+        "modified": "MRAppMaster launching normal, non-uberized, multi-container job <*>."
+      },
+      {
+        "event_id": "E6",
+        "original": "Could not obtain <*> from any node: <*> No live nodes contain block <*> after checking nodes = <*>, ignoredNodes = <*> No live nodes contain current block Block locations: <*> Dead nodes: <*>. Will get new block locations from namenode and retry...",
+        "modified": "Could not obtain <*> from any node: <*>: No live nodes contain block <*> after checking nodes = <*>, ignoredNodes = <*> No live nodes contain current block Block locations: <*> Dead nodes: <*>. Will get new block locations from namenode and retry..."
+      },
+      {
+        "event_id": "E15",
+        "original": "Releasing unassigned and invalid container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: <*>]. RM may have assignment issues",
+        "modified": "Releasing unassigned and invalid container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: <*>, service: <*> }, ]. RM may have assignment issues"
+      },
+      {
+        "event_id": "E65",
+        "original": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>",
+        "modified": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>>"
+      },
+      {
+        "event_id": "E9",
+        "original": "Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: <*>, ] for a map as either container memory less than required <*> or no pending map tasks - maps.isEmpty=<*>",
+        "modified": "Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: Token { kind: <*>, service: <*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=<*>"
+      },
+      {
+        "event_id": "E85",
+        "original": "maxContainerCapability: <memory:<*>, vCores:<*>",
+        "modified": "maxContainerCapability: <memory:<*>, vCores:<*>>"
+      },
+      {
+        "event_id": "E95",
+        "original": "mapResourceRequest:<memory:<*>, vCores:<*>",
+        "modified": "mapResourceRequest:<memory:<*>, vCores:<*>>"
+      },
+      {
+        "event_id": "E200",
+        "original": "Processing split: <*>+<*>",
+        "modified": "Processing split: <*>:<*>+<*>"
+      },
+      {
+        "event_id": "E226",
+        "original": "Abandoning <*>",
+        "modified": "Abandoning <*>:<*>"
+      },
+      {
+        "event_id": "E1",
+        "original": "completedMapPercent <*> totalResourceLimit:<memory:<*>, vCores:<*> finalMapResourceLimit:<memory:<*>, vCores:<*> finalReduceResourceLimit:<memory:<*>, vCores:<*> netScheduledMapResource:<memory:<*>, vCores:<*> netScheduledReduceResource:<memory:<*>, vCores:<*>",
+        "modified": "completedMapPercent <*> totalResourceLimit:<memory:<*>, vCores:<*>> finalMapResourceLimit:<memory:<*>, vCores:<*>> finalReduceResourceLimit:<memory:<*>, vCores:<*>> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:<*>, vCores:<*>>"
+      },
+      {
+        "event_id": "E18",
+        "original": "Failed to connect to <*> for block, add to deadNodes and continue. java.net.NoRouteToHostException: No route to host: no further information",
+        "modified": "Failed to connect to /<*>:<*> for block, add to deadNodes and continue. java.net.NoRouteToHostException: No route to host: no further information"
+      },
+      {
+        "event_id": "E19",
+        "original": "Failed to connect to <*> for block, add to deadNodes and continue. java.net.ConnectException: Connection timed out: no further information",
+        "modified": "Failed to connect to /<*>:<*> for block, add to deadNodes and continue. java.net.ConnectException: Connection timed out: no further information"
+      },
+      {
+        "event_id": "E76",
+        "original": "Sleeping for <*> before retrying again. Got null now.",
+        "modified": "Sleeping for <*>ms before retrying again. Got null now."
+      },
+      {
+        "event_id": "E96",
+        "original": "Sleeping for <*> before retrying again. Got null now.",
+        "modified": "Sleeping for <*>@<*> before retrying again. Got null now."
+      }
+    ],
+    "HealthApp": [
+      {
+        "event_id": "E90",
+        "original": "getTodayTotalDetailSteps = <*>",
+        "modified": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"
+      },
+      {
+        "event_id": "E93",
+        "original": "setTodayTotalDetailSteps=<*>",
+        "modified": "setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*>"
+      },
+      {
+        "event_id": "E56",
+        "original": "Alarm uploadStaticsToDB totalSteps=<*>",
+        "modified": "Alarm uploadStaticsToDB totalSteps=<*>Calories:<*>Floor:<*>Distance:<*>"
+      },
+      {
+        "event_id": "E124",
+        "original": "new date =<*>, type=<*>,old=<*>",
+        "modified": "new date =<*>, type=<*>,<*>,old=<*>"
+      },
+      {
+        "event_id": "E81",
+        "original": "getTodayBasicStandardSteps= <*>",
+        "modified": "getTodayBasicStandardSteps= <*>##<*>##<*>"
+      },
+      {
+        "event_id": "E132",
+        "original": "getDiffTotalSteps= <*>",
+        "modified": "getDiffTotalSteps= <*>##<*>"
+      },
+      {
+        "event_id": "E153",
+        "original": "next day:<*>",
+        "modified": "next day:steps<*>mLastReport<*>"
+      },
+      {
+        "event_id": "E145",
+        "original": "the first init <*>",
+        "modified": "the first init mLastReportTimeStamp<*>"
+      },
+      {
+        "event_id": "E44",
+        "original": "aggregateHiHealthData() time = <*> totalTime = <*>",
+        "modified": "aggregateHiHealthData() time = <*>, totalTime = <*>"
+      },
+      {
+        "event_id": "E48",
+        "original": "readHiHealthData() end time = <*> totalTime = <*>",
+        "modified": "readHiHealthData() end time = <*>, totalTime = <*>"
+      },
+      {
+        "event_id": "E96",
+        "original": "setGoalNotifiShownRecord <*>",
+        "modified": "setGoalNotifiShownRecord <*> <*>"
+      },
+      {
+        "event_id": "E128",
+        "original": "<*> datas is null or empty",
+        "modified": "getTodayNoSyncTotalValue datas is null or empty"
+      },
+      {
+        "event_id": "E107",
+        "original": "getDiffTotalCalories= <*>",
+        "modified": "getDiffTotalCalories= <*>##<*>"
+      },
+      {
+        "event_id": "E156",
+        "original": "REPORT : <*>",
+        "modified": "REPORT : <*> <*> <*> <*>"
+      }
+    ],
+    "Linux": [
+      {
+        "event_id": "E47",
+        "original": "USB Universal Host Controller Interface driver <*>",
+        "modified": "USB Universal Host Controller Interface driver v<*>"
+      },
+      {
+        "event_id": "E238",
+        "original": "audit(<*>): initialized",
+        "modified": "audit(<*>:<*>): initialized"
+      },
+      {
+        "event_id": "E258",
+        "original": "creating device node <*>",
+        "modified": "creating device node '<*>'"
+      },
+      {
+        "event_id": "E228",
+        "original": "no longer listening on <*>",
+        "modified": "no longer listening on <*>#<*>"
+      },
+      {
+        "event_id": "E95",
+        "original": "couldn't add command channel <*> not found",
+        "modified": "couldn't add command channel <*>#<*>: not found"
+      },
+      {
+        "event_id": "E13",
+        "original": "Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",
+        "modified": "Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+      },
+      {
+        "event_id": "E148",
+        "original": "Security Scaffold <*> initialized",
+        "modified": "Security Scaffold v<*> initialized"
+      },
+      {
+        "event_id": "E146",
+        "original": "Checking <*> instruction... OK.",
+        "modified": "Checking '<*>' instruction... OK."
+      },
+      {
+        "event_id": "E86",
+        "original": "Linux agpgart interface <*> (c) Dave Jones",
+        "modified": "Linux agpgart interface v<*> (c) Dave Jones"
+      },
+      {
+        "event_id": "E30",
+        "original": "process <*> is using obsolete setsockopt SO_BSDCOMPAT",
+        "modified": "process `<*>' is using obsolete setsockopt SO_BSDCOMPAT"
+      },
+      {
+        "event_id": "E186",
+        "original": "loading configuration from <*>",
+        "modified": "loading configuration from '<*>'"
+      },
+      {
+        "event_id": "E60",
+        "original": "configure: keyword <*> unknown, line ignored",
+        "modified": "configure: keyword \"<*>\" unknown, line ignored"
+      },
+      {
+        "event_id": "E173",
+        "original": "ALERT exited abnormally with <*>",
+        "modified": "ALERT exited abnormally with [<*>]"
+      },
+      {
+        "event_id": "E174",
+        "original": "hda: status timeout: status=<*> <*>",
+        "modified": "hda: status timeout: status=<*> { <*> }"
+      },
+      {
+        "event_id": "E61",
+        "original": "<*> Privoxy(<*>) Info: loading configuration file <*>",
+        "modified": "<*> Privoxy(<*>) Info: loading configuration file '<*>':"
+      },
+      {
+        "event_id": "E272",
+        "original": "[<*>] __alloc_pages+<*>",
+        "modified": "[<<*>>] __alloc_pages+<*>"
+      },
+      {
+        "event_id": "E175",
+        "original": "[<*>] read_swap_cache_async+<*>",
+        "modified": "[<<*>>] read_swap_cache_async+<*>"
+      },
+      {
+        "event_id": "E234",
+        "original": "[<*>] swapin_readahead+<*>",
+        "modified": "[<<*>>] swapin_readahead+<*>"
+      },
+      {
+        "event_id": "E287",
+        "original": "[<*>] do_swap_page+<*>",
+        "modified": "[<<*>>] do_swap_page+<*>"
+      },
+      {
+        "event_id": "E246",
+        "original": "[<*>] handle_mm_fault+<*>",
+        "modified": "[<<*>>] handle_mm_fault+<*>"
+      },
+      {
+        "event_id": "E278",
+        "original": "[<*>] do_page_fault+<*>",
+        "modified": "[<<*>>] do_page_fault+<*>"
+      },
+      {
+        "event_id": "E327",
+        "original": "[<*>] do_IRQ+<*>",
+        "modified": "[<<*>>] do_IRQ+<*>"
+      },
+      {
+        "event_id": "E315",
+        "original": "[<*>] schedule+<*>",
+        "modified": "[<<*>>] schedule+<*>"
+      },
+      {
+        "event_id": "E335",
+        "original": "[<*>] dput+<*>",
+        "modified": "[<<*>>] dput+<*>"
+      },
+      {
+        "event_id": "E158",
+        "original": "[<*>] do_page_cache_readahead+<*>",
+        "modified": "[<<*>>] do_page_cache_readahead+<*>"
+      },
+      {
+        "event_id": "E262",
+        "original": "[<*>] filemap_nopage+<*>",
+        "modified": "[<<*>>] filemap_nopage+<*>"
+      },
+      {
+        "event_id": "E304",
+        "original": "[<*>] do_no_page+<*>",
+        "modified": "[<<*>>] do_no_page+<*>"
+      },
+      {
+        "event_id": "E291",
+        "original": "[<*>] follow_page+<*>",
+        "modified": "[<<*>>] follow_page+<*>"
+      },
+      {
+        "event_id": "E330",
+        "original": "[<*>] rw_vm+<*>",
+        "modified": "[<<*>>] rw_vm+<*>"
+      },
+      {
+        "event_id": "E200",
+        "original": "[<*>] find_or_create_page+<*>",
+        "modified": "[<<*>>] find_or_create_page+<*>"
+      },
+      {
+        "event_id": "E275",
+        "original": "[<*>] grow_dev_page+<*>",
+        "modified": "[<<*>>] grow_dev_page+<*>"
+      },
+      {
+        "event_id": "E274",
+        "original": "[<*>] __getblk_slow+<*>",
+        "modified": "[<<*>>] __getblk_slow+<*>"
+      },
+      {
+        "event_id": "E314",
+        "original": "[<*>] __getblk+<*>",
+        "modified": "[<<*>>] __getblk+<*>"
+      },
+      {
+        "event_id": "E209",
+        "original": "[<*>] ext3_get_inode_loc+<*>",
+        "modified": "[<<*>>] ext3_get_inode_loc+<*>"
+      },
+      {
+        "event_id": "E273",
+        "original": "[<*>] mempool_alloc+<*>",
+        "modified": "[<<*>>] mempool_alloc+<*>"
+      },
+      {
+        "event_id": "E139",
+        "original": "[<*>] ext3_reserve_inode_write+<*>",
+        "modified": "[<<*>>] ext3_reserve_inode_write+<*>"
+      },
+      {
+        "event_id": "E177",
+        "original": "[<*>] ext3_mark_inode_dirty+<*>",
+        "modified": "[<<*>>] ext3_mark_inode_dirty+<*>"
+      },
+      {
+        "event_id": "E277",
+        "original": "[<*>] journal_start+<*>",
+        "modified": "[<<*>>] journal_start+<*>"
+      },
+      {
+        "event_id": "E232",
+        "original": "[<*>] ext3_dirty_inode+<*>",
+        "modified": "[<<*>>] ext3_dirty_inode+<*>"
+      },
+      {
+        "event_id": "E211",
+        "original": "[<*>] __mark_inode_dirty+<*>",
+        "modified": "[<<*>>] __mark_inode_dirty+<*>"
+      },
+      {
+        "event_id": "E221",
+        "original": "[<*>] inode_update_time+<*>",
+        "modified": "[<<*>>] inode_update_time+<*>"
+      },
+      {
+        "event_id": "E97",
+        "original": "[<*>] generic_file_aio_write_nolock+<*>",
+        "modified": "[<<*>>] generic_file_aio_write_nolock+<*>"
+      },
+      {
+        "event_id": "E233",
+        "original": "[<*>] vt_console_print+<*>",
+        "modified": "[<<*>>] vt_console_print+<*>"
+      },
+      {
+        "event_id": "E260",
+        "original": "[<*>] __print_symbol+<*>",
+        "modified": "[<<*>>] __print_symbol+<*>"
+      },
+      {
+        "event_id": "E168",
+        "original": "[<*>] generic_file_aio_write+<*>",
+        "modified": "[<<*>>] generic_file_aio_write+<*>"
+      },
+      {
+        "event_id": "E249",
+        "original": "[<*>] ext3_file_write+<*>",
+        "modified": "[<<*>>] ext3_file_write+<*>"
+      },
+      {
+        "event_id": "E276",
+        "original": "[<*>] do_sync_write+<*>",
+        "modified": "[<<*>>] do_sync_write+<*>"
+      },
+      {
+        "event_id": "E166",
+        "original": "[<*>] __call_console_drivers+<*>",
+        "modified": "[<<*>>] __call_console_drivers+<*>"
+      },
+      {
+        "event_id": "E325",
+        "original": "[<*>] printk+<*>",
+        "modified": "[<<*>>] printk+<*>"
+      },
+      {
+        "event_id": "E306",
+        "original": "[<*>] show_trace+<*>",
+        "modified": "[<<*>>] show_trace+<*>"
+      },
+      {
+        "event_id": "E302",
+        "original": "[<*>] dump_stack+<*>",
+        "modified": "[<<*>>] dump_stack+<*>"
+      },
+      {
+        "event_id": "E248",
+        "original": "[<*>] do_acct_process+<*>",
+        "modified": "[<<*>>] do_acct_process+<*>"
+      },
+      {
+        "event_id": "E286",
+        "original": "[<*>] acct_process+<*>",
+        "modified": "[<<*>>] acct_process+<*>"
+      },
+      {
+        "event_id": "E321",
+        "original": "[<*>] do_exit+<*>",
+        "modified": "[<<*>>] do_exit+<*>"
+      },
+      {
+        "event_id": "E270",
+        "original": "[<*>] proc_dointvec+<*>",
+        "modified": "[<<*>>] proc_dointvec+<*>"
+      },
+      {
+        "event_id": "E176",
+        "original": "[<*>] do_proc_dointvec_conv+<*>",
+        "modified": "[<<*>>] do_proc_dointvec_conv+<*>"
+      },
+      {
+        "event_id": "E303",
+        "original": "[<*>] do_rw_proc+<*>",
+        "modified": "[<<*>>] do_rw_proc+<*>"
+      },
+      {
+        "event_id": "E137",
+        "original": "[<*>] invalidate_inode_buffers+<*>",
+        "modified": "[<<*>>] invalidate_inode_buffers+<*>"
+      },
+      {
+        "event_id": "E311",
+        "original": "[<*>] __wake_up+<*>",
+        "modified": "[<<*>>] __wake_up+<*>"
+      },
+      {
+        "event_id": "E229",
+        "original": "[<*>] __wake_up_common+<*>",
+        "modified": "[<<*>>] __wake_up_common+<*>"
+      },
+      {
+        "event_id": "E268",
+        "original": "[<*>] put_user_size+<*>",
+        "modified": "[<<*>>] put_user_size+<*>"
+      },
+      {
+        "event_id": "E230",
+        "original": "[<*>] check_free_space+<*>",
+        "modified": "[<<*>>] check_free_space+<*>"
+      },
+      {
+        "event_id": "E247",
+        "original": "[<*>] page_cache_read+<*>",
+        "modified": "[<<*>>] page_cache_read+<*>"
+      },
+      {
+        "event_id": "E235",
+        "original": "[<*>] recalc_task_prio+<*>",
+        "modified": "[<<*>>] recalc_task_prio+<*>"
+      },
+      {
+        "event_id": "E301",
+        "original": "[<*>] do_wp_page+<*>",
+        "modified": "[<<*>>] do_wp_page+<*>"
+      },
+      {
+        "event_id": "E326",
+        "original": "[<*>] __fput+<*>",
+        "modified": "[<<*>>] __fput+<*>"
+      },
+      {
+        "event_id": "E231",
+        "original": "[<*>] sys_rt_sigaction+<*>",
+        "modified": "[<<*>>] sys_rt_sigaction+<*>"
+      },
+      {
+        "event_id": "E279",
+        "original": "[<*>] get_user_size+<*>",
+        "modified": "[<<*>>] get_user_size+<*>"
+      },
+      {
+        "event_id": "E201",
+        "original": "[<*>] module_text_address+<*>",
+        "modified": "[<<*>>] module_text_address+<*>"
+      },
+      {
+        "event_id": "E322",
+        "original": "[<*>] d_alloc+<*>",
+        "modified": "[<<*>>] d_alloc+<*>"
+      },
+      {
+        "event_id": "E271",
+        "original": "[<*>] d_instantiate+<*>",
+        "modified": "[<<*>>] d_instantiate+<*>"
+      },
+      {
+        "event_id": "E210",
+        "original": "[<*>] sys_rt_sigprocmask+<*>",
+        "modified": "[<<*>>] sys_rt_sigprocmask+<*>"
+      },
+      {
+        "event_id": "E159",
+        "original": "[<*>] input_unregister_device+<*>",
+        "modified": "[<<*>>] input_unregister_device+<*>"
+      },
+      {
+        "event_id": "E220",
+        "original": "[<*>] clear_page_tables+<*>",
+        "modified": "[<<*>>] clear_page_tables+<*>"
+      },
+      {
+        "event_id": "E269",
+        "original": "[<*>] free_pgtables+<*>",
+        "modified": "[<<*>>] free_pgtables+<*>"
+      },
+      {
+        "event_id": "E288",
+        "original": "[<*>] unmap_region+<*>",
+        "modified": "[<<*>>] unmap_region+<*>"
+      },
+      {
+        "event_id": "E259",
+        "original": "[<*>] unmap_vma_list+<*>",
+        "modified": "[<<*>>] unmap_vma_list+<*>"
+      },
+      {
+        "event_id": "E305",
+        "original": "[<*>] sys_setuid+<*>",
+        "modified": "[<<*>>] sys_setuid+<*>"
+      },
+      {
+        "event_id": "E253",
+        "original": "removing device node <*>",
+        "modified": "removing device node '<*>'"
+      },
+      {
+        "event_id": "E76",
+        "original": "Linux Plug and Play Support <*> (c) Adam Belay",
+        "modified": "Linux Plug and Play Support v<*> (c) Adam Belay"
+      },
+      {
+        "event_id": "E216",
+        "original": "Kernel logging <*> stopped.",
+        "modified": "Kernel logging (<*>) stopped."
+      }
+    ],
+    "Mac": [
+      {
+        "event_id": "E1",
+        "original": "<*> <*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:<*> bundleID=<*> lastCheck=<*> checkInterval=<*> uiDisplayInterval=<*> sleepInterval=<*> jitterInterval=<*> maxRunInterval=<*> isConsoleUser=<*> ticketStorePath=<*> runMode=<*> daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=<*> logBufferSize=<*> alwaysPromptForUpdates=<*> productIDToUpdate=(<*>) lastUIDisplayed=(<*>) alwaysShowStatusItem=<*> updateCheckTag=(<*>) printResults=<*> userInitiated=<*>",
+        "modified": "<*> <*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:<*> bundleID=<*> lastCheck=<*> checkInterval=<*> uiDisplayInterval=<*> sleepInterval=<*> jitterInterval=<*> maxRunInterval=<*> isConsoleUser=<*> ticketStorePath=<*> runMode=<*> daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=<*> logBufferSize=<*> alwaysPromptForUpdates=<*> productIDToUpdate=(<*>) lastUIDisplayed=(<*>) alwaysShowStatusItem=<*> updateCheckTag=(<*>) printResults=<*> userInitiated=<*>>"
+      },
+      {
+        "event_id": "E7",
+        "original": "[<*>] [Sync report for calendar home iCloud, failed with error Error Domain=NSURLErrorDomain <*> <*> <*> {Error Domain=kCFErrorDomainCFNetwork <*> <*> UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, <*> NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, <*>",
+        "modified": "[<*>] [Sync report for calendar home iCloud, failed with error Error Domain=NSURLErrorDomain Code=<*> \"<<*>>\" UserInfo={NSUnderlyingError=<*> {Error Domain=<*> Code=<*> \"<<*>>\" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=<<*>>}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=<<*>>}]"
+      },
+      {
+        "event_id": "E196",
+        "original": "<*> <*> ksfetch[<*>] [lvl=<*>] main() Fetcher received a request: <NSMutableURLRequest: <*> { URL: <*> }",
+        "modified": "<*> <*> ksfetch[<*>] [lvl=<*>] main() Fetcher received a request: <NSMutableURLRequest: <*>> { URL: <*> }"
+      },
+      {
+        "event_id": "E173",
+        "original": "<*> <*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>",
+        "modified": "<*> <*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*>> { URL: <*> }) to folder:<*>"
+      },
+      {
+        "event_id": "E47",
+        "original": "<*> <*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: <*> { URL: <*> }",
+        "modified": "<*> <*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: <*>> { URL: <*> }"
+      },
+      {
+        "event_id": "E165",
+        "original": "ERROR | -[LWBuiltInScreenLockAuthLion <*> | Attempted to add an observer when already observing",
+        "modified": "ERROR | -[LWBuiltInScreenLockAuthLion <*>] | Attempted to add an observer when already observing"
+      },
+      {
+        "event_id": "E8",
+        "original": "<*> <*>, <*>, <*>, [NetworkDefaults]: Error updating network defaults: Error Domain=<*> Code=-<*> <*>\" UserInfo={NSUnderlyingError=<*> {Error Domain=<*> Code=<*> \"(<*>)\" UserInfo={_kCFStreamErrorCodeKey=-<*>, _kCFStreamErrorDomainKey=<*>}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=-<*>, NSLocalizedDescription=<*>}",
+        "modified": "<*> <*>, <*>, <*>, [NetworkDefaults]: Error updating network defaults: Error Domain=<*> Code=<*> \"<*>\" UserInfo={NSUnderlyingError=<*> {Error Domain=<*> Code=<*> \"(<*>)\" UserInfo={_kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=<*>}"
+      },
+      {
+        "event_id": "E57",
+        "original": "CoreText: *** Unmapped <*> <CTFont: <*>{name = <*>, size = <*>, matrix = <*>, descriptor = <CTFontDescriptor: <*>{attributes = <CFBasicHash <*> [<*>]>{type = <*>, count = <*>,",
+        "modified": "CoreText: *** Unmapped \"<*>\" <CTFont: <*>>{name = <*>, size = <*>, matrix = <*>, descriptor = <CTFontDescriptor: <*>>{attributes = <CFBasicHash <*> [<*>]>{type = <*>, count = <*>,"
+      },
+      {
+        "event_id": "E160",
+        "original": "[<*>] [Failed to refresh <CalManagedSubscriptionInfo: <*> (entity: SubscriptionInfo; id: <*> ; data: {",
+        "modified": "[<*>] [Failed to refresh <CalManagedSubscriptionInfo: <*>> (entity: SubscriptionInfo; id: <*> <x-coredata:<*>> ; data: {"
+      },
+      {
+        "event_id": "E28",
+        "original": "[<*>] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain <*> \"(<*>)\" UserInfo={AccountName=<*>, CalDAVErrFromRefresh=<*>, CoreDAVHTTPHeaders=<*>{type = <*>, count = <*>,",
+        "modified": "[<*>] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=<*> \"(<*>)\" UserInfo={AccountName=<*>, CalDAVErrFromRefresh=<*>, CoreDAVHTTPHeaders=<CFBasicHash <*> [<*>]>{type = <*>, count = <*>,"
+      },
+      {
+        "event_id": "E182",
+        "original": "**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by <*> ****",
+        "modified": "**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by <*>ms ****"
+      },
+      {
+        "event_id": "E151",
+        "original": "NSWindow warning: adding an unknown subview: <FullSizeContentView: <*>. Break on NSLog to debug.",
+        "modified": "NSWindow warning: adding an unknown subview: <FullSizeContentView: <*>>. Break on NSLog to debug."
+      },
+      {
+        "event_id": "E159",
+        "original": "[<*>] [Coalescing failed operation [<CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*>]]",
+        "modified": "[<*>] [Coalescing failed operation [<CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*>>]]"
+      },
+      {
+        "event_id": "E120",
+        "original": "[<*>] [Account <*> timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*>]",
+        "modified": "[<*>] [Account <*> timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*>>]"
+      },
+      {
+        "event_id": "E224",
+        "original": "<*>[NETClientConnection evaluateCrazyIvan46]_block_invoke <*> - Hit by torpedo! <*> <*> <*>",
+        "modified": "<*>-[NETClientConnection evaluateCrazyIvan46]_block_invoke <*> - Hit by torpedo! <*> <*> <*>"
+      },
+      {
+        "event_id": "E493",
+        "original": "[<*>(<*>)] Failed to read DnsConfig.",
+        "modified": "[<*>:WARNING:dns_config_service_posix.cc(<*>)] Failed to read DnsConfig."
+      },
+      {
+        "event_id": "E155",
+        "original": "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: [<*>] Network is down",
+        "modified": "tcp_connection_destination_perform_socket_connect <*> connectx to <*>@<*> failed: [<*>] Network is down"
+      },
+      {
+        "event_id": "E439",
+        "original": "-> DNSServiceQueryRecord <*> (PTR) PID[<*>]()",
+        "modified": "-> DNSServiceQueryRecord <*> <*> <*> (PTR) PID[<*>]()"
+      },
+      {
+        "event_id": "E330",
+        "original": "device_generate_desktop_screenshot: authw <*> shield <*>(<*>)",
+        "modified": "device_generate_desktop_screenshot: authw <*>(<*>), shield <*>(<*>)"
+      },
+      {
+        "event_id": "E161",
+        "original": "[<*>] [Adding [<CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*>] to failed operations.]",
+        "modified": "[<*>] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>>] to failed operations.]"
+      },
+      {
+        "event_id": "E135",
+        "original": "[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*>, doesn't have account access.",
+        "modified": "[Accounts] Current connection, <NSXPCConnection: <*>> connection from pid <*>, doesn't have account access."
+      },
+      {
+        "event_id": "E351",
+        "original": "[<*>] itemasync_CopyProperty signalled err=<*> (<*>) at <*> line <*>",
+        "modified": "[<*>] itemasync_CopyProperty signalled err=<*> (<*>) (<*>) at <*> line <*>"
+      },
+      {
+        "event_id": "E298",
+        "original": "*** -[NSRecursiveLock unlock]: lock <*> unlocked when not locked",
+        "modified": "*** -[NSRecursiveLock unlock]: lock (<NSRecursiveLock: <*>> '<*>') unlocked when not locked"
+      },
+      {
+        "event_id": "E334",
+        "original": "[QL] No sandbox token for request <*>, it will probably fail",
+        "modified": "[QL] No sandbox token for request <<*>>, it will probably fail"
+      },
+      {
+        "event_id": "E211",
+        "original": "childFrame with no value: <*> EWSMailboxTypeTypeDefinition:<*> (Inlined Arrays: (<*>))",
+        "modified": "childFrame with no value: <_SOAPParserFrame: <*>> EWSMailboxTypeTypeDefinition:<*> (Inlined Arrays: (<*>))"
+      },
+      {
+        "event_id": "E477",
+        "original": "INSTALLED:<*> <*>(<*>) <__NSConcreteUUID <*> <*> <*>",
+        "modified": "INSTALLED:<*> <*>(<*>) <__NSConcreteUUID <*>> <*> <*>"
+      },
+      {
+        "event_id": "E593",
+        "original": "ARPT: <*>: <*>: MDNS: <*> Addr: <*>",
+        "modified": "ARPT: <*>: <*>: MDNS: IPV<*> Addr: <*>"
+      },
+      {
+        "event_id": "E30",
+        "original": "Application App:<*> asn:<*> pid:<*> refs=<*> @ <*> tried to be brought forward, but isn't in fPermittedFrontApps ( ( \"<*>\")), so denying. : LASSession.cp <*> SetFrontApplication() q=LSSession <*> queue",
+        "modified": "Application App:<*> asn:<*> pid:<*> refs=<*> @ <*> tried to be brought forward, but isn't in fPermittedFrontApps ( ( \"<*> <*> \"<*>\"\")), so denying. : LASSession.cp <*> SetFrontApplication() q=LSSession <*> queue"
+      },
+      {
+        "event_id": "E280",
+        "original": "[QL] After retry, preview was from a different type for <QLPreview <*>",
+        "modified": "[QL] After retry, preview was from a different type for <QLPreview <*> <*> <*>>"
+      },
+      {
+        "event_id": "E166",
+        "original": "<*> <*> ksinstall[<*>] [lvl=<*>] -[KeystoneInstallTool main] Google Software Update installer started.",
+        "modified": "<*> <*> ksinstall[<*>/<*>] [lvl=<*>] -[KeystoneInstallTool main] Google Software Update installer started."
+      },
+      {
+        "event_id": "E115",
+        "original": "<*> <*> ksinstall[<*>] [lvl=<*>] -[KeystoneInstallTool main] Google Software Update installer starting Installation.",
+        "modified": "<*> <*> ksinstall[<*>/<*>] [lvl=<*>] -[KeystoneInstallTool main] Google Software Update installer starting Installation."
+      },
+      {
+        "event_id": "E131",
+        "original": "<*> <*> ksinstall[<*>] [lvl=<*>] -[KeystoneInstallBackend install] Google Software Update attempting to install.",
+        "modified": "<*> <*> ksinstall[<*>/<*>] [lvl=<*>] -[KeystoneInstallBackend install] Google Software Update attempting to install."
+      },
+      {
+        "event_id": "E50",
+        "original": "<*> <*> ksinstall[<*>] [lvl=<*>] -[KeystoneInstallBackend shouldInstallWithVersion:error:] Google Software Update found version that is the same or newer: <*>.",
+        "modified": "<*> <*> ksinstall[<*>/<*>] [lvl=<*>] -[KeystoneInstallBackend shouldInstallWithVersion:error:] Google Software Update found version that is the same or newer: <*>."
+      },
+      {
+        "event_id": "E72",
+        "original": "KSPersistentTicketStore failed to load tickets. (productID: <*>) [<*> - '<*>'] (KSKeyedPersistentStore store directory does not exist. - <*> [<*>])",
+        "modified": "KSPersistentTicketStore failed to load tickets. (productID: <*>) [<*>:<*> - '<*>'] (KSKeyedPersistentStore store directory does not exist. - '<*>' [<*>:<*>])"
+      },
+      {
+        "event_id": "E167",
+        "original": "Errors logged by ksadmin: KSKeyedPersistentStore store directory does not exist. [<*> - <*> - '<*>']",
+        "modified": "Errors logged by ksadmin: KSKeyedPersistentStore store directory does not exist. [<*>:<*> - '<*>' - '<*>:<*>']"
+      },
+      {
+        "event_id": "E490",
+        "original": "network changed: <*>(<*>) DNS- Proxy SMB",
+        "modified": "network changed: <*>(<*>:<*>) DNS- Proxy SMB"
+      },
+      {
+        "event_id": "E538",
+        "original": "box: <*> deny(<*>) file-read-data <*>",
+        "modified": "box: <*>(<*>) deny(<*>) file-read-data <*>"
+      },
+      {
+        "event_id": "E103",
+        "original": "*** Assertion failure in +[LUTextAccessor rangeOfTermInString:containingOffset:language:partOfSpeech:], <*>",
+        "modified": "*** Assertion failure in +[LUTextAccessor rangeOfTermInString:containingOffset:language:partOfSpeech:], <*>:<*>"
+      },
+      {
+        "event_id": "E379",
+        "original": "ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> minlen <*> adjlen <*>",
+        "modified": "ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>"
+      },
+      {
+        "event_id": "E398",
+        "original": "ARPT: <*>: AQM agg results <*> len hi/lo: <*> BAbitmap(<*>-<*>) <*>",
+        "modified": "ARPT: <*>: AQM agg results <*> len hi/lo: <*> <*> BAbitmap(<*>-<*>) <*> <*> <*> <*>"
+      },
+      {
+        "event_id": "E188",
+        "original": "[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: <*> Byte flume reports host available again.",
+        "modified": "[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again."
+      },
+      {
+        "event_id": "E256",
+        "original": "NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*> fLastRetryTimestamp, <*>",
+        "modified": "NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*>"
+      },
+      {
+        "event_id": "E554",
+        "original": "enabling pid=<*> for plug-in <*>",
+        "modified": "enabling pid=<*> for plug-in <*> <*> <*>"
+      },
+      {
+        "event_id": "E223",
+        "original": "<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>",
+        "modified": "<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>."
+      },
+      {
+        "event_id": "E485",
+        "original": "-[ABAddressBook save] failed. (<*>)",
+        "modified": "-[ABAddressBook save] failed. (<ABAddressBook: <*>>)"
+      },
+      {
+        "event_id": "E128",
+        "original": "<IMMacNotificationCenterManager: <*>: notification observer: <*> notification: __CFNotification <*> {name = <*>}",
+        "modified": "<IMMacNotificationCenterManager: <*>>: notification observer: <*> notification: __CFNotification <*> {name = <*>}"
+      },
+      {
+        "event_id": "E348",
+        "original": "<IMMacNotificationCenterManager: <*>: NC Disabled: <*>",
+        "modified": "<IMMacNotificationCenterManager: <*>>: NC Disabled: <*>"
+      },
+      {
+        "event_id": "E272",
+        "original": "<IMMacNotificationCenterManager: <*>: Updating enabled: <*> (Topics: (",
+        "modified": "<IMMacNotificationCenterManager: <*>>: Updating enabled: <*> (Topics: ("
+      },
+      {
+        "event_id": "E202",
+        "original": "[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller <*> Error Domain=<*> Code=<*> \"(<*>)\"",
+        "modified": "[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller <*>] Error Domain=<*> Code=<*> \"(<*>)\""
+      },
+      {
+        "event_id": "E201",
+        "original": "[Accounts] Failed to update account with identifier <*> error: Error Domain=<*> Code=<*> \"(<*>)\"",
+        "modified": "[Accounts] Failed to update account with identifier <*>, error: Error Domain=<*> Code=<*> \"(<*>)\""
+      },
+      {
+        "event_id": "E66",
+        "original": "<*> : SDWormholeServer::failedToStartScanningWithError Error Domain=<*> Code=<*> \"(os/kern) no access\" UserInfo={NSLocalizedDescription=<*>}",
+        "modified": "<*> : SDWormholeServer::failedToStartScanningWithError Error Domain=<*> Code=<*> \"(os/kern) no access\" UserInfo={NSLocalizedDescription=<*>.}"
+      },
+      {
+        "event_id": "E219",
+        "original": "GVA warning: addNewReferenceEntry_MMCO mmcoFunc1 not found requested <*> curr = <*>",
+        "modified": "GVA warning: addNewReferenceEntry_MMCO mmcoFunc1 not found requested <*>, curr = <*>"
+      },
+      {
+        "event_id": "E268",
+        "original": "Failed to connect <*> outlet from <*> to <*>: missing setter or instance variable",
+        "modified": "Failed to connect (<*>) outlet from (<*>) to (<*>): missing setter or instance variable"
+      },
+      {
+        "event_id": "E488",
+        "original": "failed to copy buffer for AID: <*> PID: <*>",
+        "modified": "failed to copy buffer for AID: <*>, PID: <*>"
+      },
+      {
+        "event_id": "E80",
+        "original": "[<*>] <<<< FigFile >>>> FigFileForkOpenMainByCFURL: opening url \"<*>\", path <*> options <*> failed errno <*> Resource temporarily unavailable",
+        "modified": "[<*>] <<<< FigFile >>>> FigFileForkOpenMainByCFURL: opening url \"<*>\", path \"<*>\" options <*> failed errno <*> Resource temporarily unavailable"
+      },
+      {
+        "event_id": "E58",
+        "original": "[<*>] <<< CFByteFlume >>> fbf_TCPConnEventHandler: <*> tcp_connection succeeded in reconnection attempt. Network problem appears to be resolved.",
+        "modified": "[<*>] <<< CFByteFlume >>> fbf_TCPConnEventHandler: [<*>] tcp_connection succeeded in reconnection attempt. Network problem appears to be resolved."
+      },
+      {
+        "event_id": "E252",
+        "original": "[<*>] <<<< CRABS >>>> crabsWaitForLoad: <*> Wait time out - <*> (msRequestTimeout <*>)",
+        "modified": "[<*>] <<<< CRABS >>>> crabsWaitForLoad: [<*>] Wait time out - <*> (msRequestTimeout <*>)"
+      },
+      {
+        "event_id": "E591",
+        "original": "<*>: <*> country code set to <*>",
+        "modified": "<*>: <*> country code set to <*>."
+      },
+      {
+        "event_id": "E119",
+        "original": "Captive: [CNInfoNetworkActive:<*>] <*>: SSID <*> making interface primary (cache indicates network not captive)",
+        "modified": "Captive: [CNInfoNetworkActive:<*>] <*>: SSID '<*>' making interface primary (cache indicates network not captive)"
+      },
+      {
+        "event_id": "E337",
+        "original": "Captive: <*>: Not probing <*> (cache indicates not captive)",
+        "modified": "Captive: <*>: Not probing '<*>' (cache indicates not captive)"
+      },
+      {
+        "event_id": "E455",
+        "original": "Location icon should now be in state <*>",
+        "modified": "Location icon should now be in state '<*>'"
+      },
+      {
+        "event_id": "E388",
+        "original": "wifi scan failed with error: Error Domain=<*> <*> \"(<*>)\"",
+        "modified": "wifi scan failed with error: Error Domain=<*> Code=<*> \"(<*>)\""
+      },
+      {
+        "event_id": "E355",
+        "original": "<IMMacNotificationCenterManager: <*>: DND Enabled: <*>",
+        "modified": "<IMMacNotificationCenterManager: <*>>: DND Enabled: <*>"
+      },
+      {
+        "event_id": "E610",
+        "original": "ARPT: <*>: <*>: <*> failed",
+        "modified": "ARPT: <*>: <*>: <*>: <*> failed"
+      },
+      {
+        "event_id": "E112",
+        "original": "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: [<*>] Can't assign requested address",
+        "modified": "tcp_connection_destination_perform_socket_connect <*> connectx to <*>:<*>@0 failed: [<*>] Can't assign requested address"
+      },
+      {
+        "event_id": "E599",
+        "original": "<*>::<*>::<*> bssid changed",
+        "modified": "<*>::<*>::postMessage bssid changed"
+      },
+      {
+        "event_id": "E162",
+        "original": "AOSKit ERROR: XPC CLIENT: Connection <*> event handler received event with type: [<*>]. Description: <*>",
+        "modified": "AOSKit ERROR: XPC CLIENT: Connection [<*>] event handler received event with type: [<*>]. Description: [<*>]"
+      },
+      {
+        "event_id": "E56",
+        "original": "SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> <*> (paramErr: error in user parameter list) UserInfo={NSDescription=<*>}",
+        "modified": "SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> \"<*>\" (paramErr: error in user parameter list) UserInfo={NSDescription=<*>}"
+      },
+      {
+        "event_id": "E540",
+        "original": "Connected to Dropbox on <*>.",
+        "modified": "Connected to Dropbox on '<*>'."
+      },
+      {
+        "event_id": "E389",
+        "original": "Sandbox: com.apple.WebKit(<*>) Sandbox: deny(<*>) <*> <*>",
+        "modified": "Sandbox: com.apple.WebKit(<*>) Sandbox: deny(<*>) .apple.WfileebK-read-data <*>"
+      },
+      {
+        "event_id": "E34",
+        "original": "Google Chrome[<*>] triggered unnest of range <*>-<*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits.",
+        "modified": "Google Chrome[<*>] triggered unnest of range <*>-><*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits."
+      },
+      {
+        "event_id": "E291",
+        "original": "Caching encoded userInfo to use until we are marked dirty again (<*> <*>)",
+        "modified": "Caching encoded userInfo to use until we are marked dirty again (<*> #<*>)"
+      },
+      {
+        "event_id": "E458",
+        "original": "Returning cached encoded userInfo (<*> <*>)",
+        "modified": "Returning cached encoded userInfo (<*> #<*>)"
+      },
+      {
+        "event_id": "E25",
+        "original": "[<*>] <<< FFR_Common >>> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType: *** Could not create format reader for URL <*>,video FileType <*> MIMETYPE <*> SuggFileName (<*>) instantiationError = <*>",
+        "modified": "[<*>] <<< FFR_Common >>> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType: *** Could not create format reader for URL <*>,video FileType '<*>' MIMETYPE <*> SuggFileName (<*>) instantiationError = <*>"
+      },
+      {
+        "event_id": "E123",
+        "original": "LSCopyApplicationURLsForBundleIdentifier error:Error Domain=<*> Code=<*> \"kLSApplicationNotFoundErr: <*>\"",
+        "modified": "LSCopyApplicationURLsForBundleIdentifier error:Error Domain=<*> Code=<*> \"kLSApplicationNotFoundErr: E.g. <*>\""
+      },
+      {
+        "event_id": "E428",
+        "original": "Lookup: Unhandled exception <*> caught in -[<*>]",
+        "modified": "Lookup: Unhandled exception '<*>' caught in -[<*>]"
+      },
+      {
+        "event_id": "E38",
+        "original": "<MMSplitView: <*>: the delegate <MMMainViewController: <*> was sent -splitView:resizeSubviewsWithOldSize: and left the arranged view frames in an inconsistent state:",
+        "modified": "<MMSplitView: <*>>: the delegate <MMMainViewController: <*> was sent -splitView:resizeSubviewsWithOldSize: and left the arranged view frames in an inconsistent state:"
+      },
+      {
+        "event_id": "E440",
+        "original": "-> DNSServiceGetAddrInfo <*> v4v6 <*>. PID[<*>]()",
+        "modified": "-> DNSServiceGetAddrInfo <*> <*> v4v6 <*>. PID[<*>]()"
+      },
+      {
+        "event_id": "E15",
+        "original": "PBRequester failed with Error Error Domain=<*> Code=<*> <*>\" <*> {Error Domain=<*> Code=<*> <*>\" <*> <*> _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=<*>}}, <*> <*> _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=<*>}",
+        "modified": "PBRequester failed with Error Error Domain=<*> Code=<*> \"<*>\" UserInfo={NSUnderlyingError=<*> {Error Domain=<*> Code=<*> \"<*>\" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=<*>}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=<*>}"
+      },
+      {
+        "event_id": "E19",
+        "original": "[<*>] <<< FFR_Common >>> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType: *** Could not find format reader for URL <*> path <*> extension <*> FileType '' MIMETYPE \"(<*>)\" SuggFileName \"(<*>)\" SuggNameExtension \"(<*>)\"",
+        "modified": "[<*>] <<< FFR_Common >>> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType: *** Could not find format reader for URL \"<*>\" path \"<*>\" extension \"<*>\" FileType '' MIMETYPE \"(<*>)\" SuggFileName \"(<*>)\" SuggNameExtension \"(<*>)\""
+      },
+      {
+        "event_id": "E564",
+        "original": "<*> : Hash <*> exists in contacts",
+        "modified": "<*> : Hash <<*>> exists in contacts"
+      },
+      {
+        "event_id": "E99",
+        "original": "[<*>] <<< CFByteFlume >>> FigCFHTTPCopyBandwidthInfo: <*> dead connection? returning <*> for bandwidth and clearing history",
+        "modified": "[<*>] <<< CFByteFlume >>> FigCFHTTPCopyBandwidthInfo: [<*>] dead connection? returning <*> for bandwidth and clearing history"
+      },
+      {
+        "event_id": "E52",
+        "original": "common_reenable_update: UI updates were finally reenabled by application <*> after <*> seconds [<*>] (server forcibly re-enabled them after <*> seconds [<*>])",
+        "modified": "common_reenable_update: UI updates were finally reenabled by application \"<*>\" after <*> seconds [<*>] (server forcibly re-enabled them after <*> seconds [<*>])"
+      },
+      {
+        "event_id": "E489",
+        "original": "<*> : BTLE discovered device with hash <*>",
+        "modified": "<*> : BTLE discovered device with hash <<*>>"
+      },
+      {
+        "event_id": "E70",
+        "original": "[<*>] <<< CFByteFlume >>> fbf_ResumeRetryAttempt: <*> Reconnection attempt already in progress. Leave it alone. (Unexpected race condition?)",
+        "modified": "[<*>] <<< CFByteFlume >>> fbf_ResumeRetryAttempt: [<*>] Reconnection attempt already in progress. Leave it alone. (Unexpected race condition?)"
+      },
+      {
+        "event_id": "E89",
+        "original": "disable_update_timeout: UI updates were forcibly disabled by application <*> for over <*> seconds. Server has re-enabled them.",
+        "modified": "disable_update_timeout: UI updates were forcibly disabled by application \"<*>\" for over <*> seconds. Server has re-enabled them."
+      },
+      {
+        "event_id": "E373",
+        "original": "Service <*> tried to hijack endpoint <*> from owner: <*>",
+        "modified": "Service \"<*>\" tried to hijack endpoint \"<*>\" from owner: <*>"
+      },
+      {
+        "event_id": "E487",
+        "original": "Error: [<*>][<*>]Couldn't copy BD_ADDR",
+        "modified": "Error: [<*>][<*>:]Couldn't copy BD_ADDR"
+      },
+      {
+        "event_id": "E335",
+        "original": "moduleFromLegacyDefaults: <ScreenSaverDefaults: <*>",
+        "modified": "moduleFromLegacyDefaults: <ScreenSaverDefaults: <*>>"
+      },
+      {
+        "event_id": "E324",
+        "original": "notify name <*> has been registered <*> times - this may be a leak",
+        "modified": "notify name \"<*>\" has been registered <*> times - this may be a leak"
+      },
+      {
+        "event_id": "E257",
+        "original": "host connection <NSXPCConnection: <*> connection from pid <*> invalidated",
+        "modified": "host connection <NSXPCConnection: <*>> connection from pid <*> invalidated"
+      },
+      {
+        "event_id": "E114",
+        "original": "(Volume.Normal:<*>) volume:<*> ********** Bootstrapped Creating a default store:<*> SpotLoc:<*> SpotVerLoc:<*> occlude:<*> <*>",
+        "modified": "(Volume.Normal:<*>) volume:<*> ********** Bootstrapped Creating a default store:<*> SpotLoc:(<*>) SpotVerLoc:(<*>) occlude:<*> <*>"
+      },
+      {
+        "event_id": "E269",
+        "original": ".sdef warning for attribute <*> of class <*> in suite <*>: <*> is not a valid type name.",
+        "modified": ".sdef warning for attribute '<*>' of class '<*>' in suite '<*>': '<*>' is not a valid type name."
+      },
+      {
+        "event_id": "E116",
+        "original": "XPC Error while checking if iCDP is enabled for DSID <*>: Error Domain=<*> Code=<*> <*> UserInfo={NSDebugDescription=<*>}",
+        "modified": "XPC Error while checking if iCDP is enabled for DSID <*>: Error Domain=<*> Code=<*> \"<*>\" UserInfo={NSDebugDescription=<*>}"
+      },
+      {
+        "event_id": "E168",
+        "original": "ERROR | -[LWBuiltInScreenLockAuthLion <*> | Attempted to remove an observer when not observing",
+        "modified": "ERROR | -[LWBuiltInScreenLockAuthLion <*>:] | Attempted to remove an observer when not observing"
+      },
+      {
+        "event_id": "E259",
+        "original": ".sdef warning for argument <*> of command <*> in suite <*>: <*> is not a valid type name.",
+        "modified": ".sdef warning for argument '<*>' of command '<*>' in suite '<*>': '<*>' is not a valid type name."
+      },
+      {
+        "event_id": "E126",
+        "original": "*** WebKit discarding exception: <*> *** -[__NSArrayM objectAtIndex:]: index <*> beyond bounds for empty array",
+        "modified": "*** WebKit discarding exception: <<*>> *** -[__NSArrayM objectAtIndex:]: index <*> beyond bounds for empty array"
+      },
+      {
+        "event_id": "E400",
+        "original": "Warning: I could not find the column named <*>'.",
+        "modified": "Warning: I could not find the column named '<*>'."
+      },
+      {
+        "event_id": "E93",
+        "original": "SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=<*> Code=<*> <*>\" UserInfo={NSDescription=<*>}",
+        "modified": "SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=<*> Code=<*> \"<*>\" UserInfo={NSDescription=<*>}"
+      },
+      {
+        "event_id": "E45",
+        "original": "securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=<*> Code=<*> <*>\" (paramErr: error in user parameter list) UserInfo={NSDescription=<*>}",
+        "modified": "securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=<*> Code=<*> \"<*>\" (paramErr: error in user parameter list) UserInfo={NSDescription=<*>}"
+      },
+      {
+        "event_id": "E221",
+        "original": "ASSERTION FAILED: dvcAddrRef != <*> -[DriverServices getDeviceAddress:] line: <*>",
+        "modified": "ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*>"
+      }
+    ],
+    "OpenSSH": [
+      {
+        "event_id": "E5",
+        "original": "Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!",
+        "modified": "Address <*> maps to <*>, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!"
+      },
+      {
+        "event_id": "E24",
+        "original": "Bad protocol version identification <*> from <*> port <*>",
+        "modified": "Bad protocol version identification '<*>' from <*> port <*>"
+      }
+    ],
+    "OpenStack": [
+      {
+        "event_id": "E1",
+        "original": "couldn't obtain the vcpu count from domain id: <*> exception: Requested operation is not valid: cpu affinity is not supported",
+        "modified": "couldn't obtain the vcpu count from domain id: <*>, exception: Requested operation is not valid: cpu affinity is not supported"
+      },
+      {
+        "event_id": "E7",
+        "original": "The instance sync for host <*> did not match. Re-created its InstanceList.",
+        "modified": "The instance sync for host '<*>' did not match. Re-created its InstanceList."
+      },
+      {
+        "event_id": "E38",
+        "original": "Creating event <*> for instance <*>",
+        "modified": "Creating event <*>:<*> for instance <*>"
+      }
+    ],
+    "Spark": [
+      {
+        "event_id": "E34",
+        "original": "Lost task <*> in stage <*> (TID <*>, <*>): FetchFailed(<*>, shuffleId=<*>, mapId=-<*>, reduceId=<*>, message=<*>",
+        "modified": "Lost task <*> in stage <*> (TID <*>, <*>): FetchFailed(<*>, shuffleId=<*>, mapId=<*>, reduceId=<*>, message=<*>"
+      },
+      {
+        "event_id": "E170",
+        "original": "Exception in connection from <*>",
+        "modified": "Exception in connection from <*>/<*>"
+      },
+      {
+        "event_id": "E60",
+        "original": "Container request (host: <*>, capability: <memory:<*>, vCores:<*>)",
+        "modified": "Container request (host: <*>, capability: <memory:<*>, vCores:<*>>)"
+      },
+      {
+        "event_id": "E114",
+        "original": "Successfully started service <*> on port <*>.",
+        "modified": "Successfully started service '<*>' on port <*>."
+      },
+      {
+        "event_id": "E52",
+        "original": "Registering block manager <*> with <*> RAM, BlockManagerId(driver, <*>, <*>)",
+        "modified": "Registering block manager <*>:<*> with <*> RAM, BlockManagerId(driver, <*>, <*>)"
+      },
+      {
+        "event_id": "E1",
+        "original": "Prepared Local resources Map(__spark__.jar -> resource { scheme: <*> host: <*> port: <*> file: <*> } size: <*> timestamp: <*> type: <*> visibility: <*>, pyspark.zip -> resource { scheme: <*> host: <*> port: <*> file: <*> } size: <*> timestamp: <*> type: <*> visibility: <*>, py4j-<*>-src.zip -> resource { scheme: <*> host: <*> port: <*> file: <*> } size: <*> timestamp: <*> type: <*> visibility: <*>)",
+        "modified": "Prepared Local resources Map(__spark__.jar -> resource { scheme: \"<*>\" host: \"<*>\" port: <*> file: \"<*>\" } size: <*> timestamp: <*> type: <*> visibility: <*>, pyspark.zip -> resource { scheme: \"<*>\" host: \"<*>\" port: <*> file: \"<*>\" } size: <*> timestamp: <*> type: <*> visibility: <*>, py4j-<*>-src.zip -> resource { scheme: \"<*>\" host: \"<*>\" port: <*> file: \"<*>\" } size: <*> timestamp: <*> type: <*> visibility: <*>)"
+      },
+      {
+        "event_id": "E197",
+        "original": "Saved output of task <*> to <*>",
+        "modified": "Saved output of task '<*>' to <*>"
+      },
+      {
+        "event_id": "E23",
+        "original": "Lost executor <*> on <*>: Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: <*>. Exit code is <*>",
+        "modified": "Lost executor <*> on <*>: Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: Container killed on request. Exit code is <*>"
+      },
+      {
+        "event_id": "E59",
+        "original": "Uncaught exception in thread Thread[Executor task launch <*>,<*>]",
+        "modified": "Uncaught exception in thread Thread[Executor task launch <*>,<*>,<*>]"
+      },
+      {
+        "event_id": "E236",
+        "original": "'<*> and <*>'",
+        "modified": "'<*>' and '<*>'"
+      },
+      {
+        "event_id": "E164",
+        "original": "Registered signal handlers for <*>",
+        "modified": "Registered signal handlers for [<*>]"
+      },
+      {
+        "event_id": "E67",
+        "original": "SparkListenerBus has already stopped! Dropping event <*>",
+        "modified": "SparkListenerBus has already stopped! Dropping event SparkListenerBlockUpdated(BlockUpdatedInfo(BlockManagerId(<*>, <*>, <*>),<*>,StorageLevel(<*>, <*>, <*>, <*>, <*>),<*>,<*>,<*>))"
+      },
+      {
+        "event_id": "E82",
+        "original": "Retrying fetch (<*>) for <*> outstanding blocks after <*> ms",
+        "modified": "Retrying fetch (<*>/<*>) for <*> outstanding blocks after <*> ms"
+      },
+      {
+        "event_id": "E216",
+        "original": "Failed to send RPC <*> to <*>: <*>",
+        "modified": "Failed to send RPC <*> to <*>/<*>:<*>: <*>"
+      },
+      {
+        "event_id": "E130",
+        "original": "Finished task <*> in stage <*> (TID <*>) in <*> ms on <*> (<*>)",
+        "modified": "Finished task <*> in stage <*> (TID <*>) in <*> ms on <*> (<*>/<*>)"
+      },
+      {
+        "event_id": "E19",
+        "original": "Lost task <*> in stage <*> (TID <*>, <*>): java.io.IOException: Cannot run program <*>: error=<*>, No such file or directory",
+        "modified": "Lost task <*> in stage <*> (TID <*>, <*>): java.io.IOException: Cannot run program \"<*>\": error=<*>, No such file or directory"
+      },
+      {
+        "event_id": "E91",
+        "original": "Submitting <*> missing tasks from ResultStage <*> (<*> at <*>)",
+        "modified": "Submitting <*> missing tasks from ResultStage <*> (<*> at <*> at <*>)"
+      },
+      {
+        "event_id": "E235",
+        "original": "Abandoning <*>",
+        "modified": "Abandoning <*>:<*>"
+      },
+      {
+        "event_id": "E184",
+        "original": "Failed to get block(s) from <*>",
+        "modified": "Failed to get block(s) from <*>:<*>"
+      }
+    ],
+    "Thunderbird": [
+      {
+        "event_id": "E848",
+        "original": "megaraid abort: <*>, fw owner",
+        "modified": "megaraid abort: <*>:<*>[<*>:<*>], fw owner"
+      },
+      {
+        "event_id": "E754",
+        "original": "PAM password failed for user <*>.",
+        "modified": "PAM password failed for user #<*>#."
+      },
+      {
+        "event_id": "E685",
+        "original": "Local password failed for user <*>.",
+        "modified": "Local password failed for user #<*>#."
+      },
+      {
+        "event_id": "E1144",
+        "original": "CPU0: <*> stepping <*>",
+        "modified": "CPU0: <*> CPU <*> stepping <*>"
+      },
+      {
+        "event_id": "E273",
+        "original": "My unqualified host name <*> unknown; sleeping for retry",
+        "modified": "My unqualified host name (<*>) unknown; sleeping for retry"
+      },
+      {
+        "event_id": "E1097",
+        "original": "BIOS-<*>: <*> - <*> (usable)",
+        "modified": "BIOS-e820: <*> - <*> (usable)"
+      },
+      {
+        "event_id": "E798",
+        "original": "using <*>, <*> (pan_sock: timeout)",
+        "modified": "using <*>:<*>, <*> (pan_sock: timeout)"
+      },
+      {
+        "event_id": "E449",
+        "original": "[<*>]: no routing required for port guid <*>, lid <*>",
+        "modified": "[<*>:<*>]: no routing required for port guid <*>, lid <*>"
+      },
+      {
+        "event_id": "E202",
+        "original": "[<*>]: Set port GUID=<*>, port=<*> DOWN (port prefix <*>, subnet_prefix <*>",
+        "modified": "[<*>:<*>]: Set port GUID=<*>, port=<*> DOWN (port prefix <*>, subnet_prefix <*>"
+      },
+      {
+        "event_id": "E870",
+        "original": "Listening on interface <*>, <*>",
+        "modified": "Listening on interface <*>, <*>#<*>"
+      },
+      {
+        "event_id": "E606",
+        "original": "Lustre: <*>:(<*>) maximum lustre stack <*>",
+        "modified": "Lustre: <*>:<*>:(<*>:<*>:<*>) maximum lustre stack <*>"
+      },
+      {
+        "event_id": "E631",
+        "original": "Linux version <*> (<*>) (gcc version <*>) <*> SMP <*>",
+        "modified": "Linux version <*> (#<*>#@#<*>#) (gcc version <*>) #<*> SMP <*>"
+      },
+      {
+        "event_id": "E967",
+        "original": "audit(<*>): initialized",
+        "modified": "audit(<*>:<*>): initialized"
+      },
+      {
+        "event_id": "E136",
+        "original": "[<*>]: Skip node= <*>, port= <*> bringup because topology is stale, no response",
+        "modified": "[<*>:<*>]: Skip node= <*>, port= <*> bringup because topology is stale, no response"
+      },
+      {
+        "event_id": "E450",
+        "original": "[<*>]: Failed to discover port - GUID=<*>, port=<*>",
+        "modified": "[<*>:<*>]: Failed to discover port - GUID=<*>, port=<*>"
+      },
+      {
+        "event_id": "E1026",
+        "original": "Node <*> DMA: <*> = <*>",
+        "modified": "Node <*> DMA: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> = <*>"
+      },
+      {
+        "event_id": "E1159",
+        "original": "Node <*> Normal: <*> = <*>",
+        "modified": "Node <*> Normal: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> = <*>"
+      },
+      {
+        "event_id": "E1120",
+        "original": "<*> connection from <*>",
+        "modified": "<*> connection from <*> (<*>)"
+      },
+      {
+        "event_id": "E909",
+        "original": "Lustre: <*>:(<*>) Binding <*> <*> to <*>",
+        "modified": "Lustre: <*>:<*>:(<*>:<*>:<*>) Binding <*> <*> to <*>"
+      },
+      {
+        "event_id": "E305",
+        "original": "Lustre: <*>:(<*>) previously skipped <*> similar messages",
+        "modified": "Lustre: <*>:<*>:(<*>:<*>:<*>) previously skipped <*> similar messages"
+      },
+      {
+        "event_id": "E518",
+        "original": "Lustre: <*>:(<*>) showing stack for process <*>",
+        "modified": "Lustre: <*>:<*>:(<*>:<*>:<*>) showing stack for process <*>"
+      },
+      {
+        "event_id": "E360",
+        "original": "LustreError: <*>:(<*>) OBD ioctl: device not setup <*>",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) OBD ioctl: device not setup <*>"
+      },
+      {
+        "event_id": "E626",
+        "original": "LustreError: <*> ASSERTION(<*>) failed",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) ASSERTION(<*>) failed"
+      },
+      {
+        "event_id": "E556",
+        "original": "Lustre: <*>:(<*>) Invoked portals upcall <*>",
+        "modified": "Lustre: <*>:<*>:(<*>:<*>:<*>) Invoked portals upcall <*>"
+      },
+      {
+        "event_id": "E632",
+        "original": "LustreError: <*>:(<*>) no device for: <*>",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) no device for: <*>"
+      },
+      {
+        "event_id": "E217",
+        "original": "LustreError: <*>:(<*>) previously skipped <*> similar messages",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) previously skipped <*> similar messages"
+      },
+      {
+        "event_id": "E182",
+        "original": "[<*>]: Failed to bring port to ACTIVE for node=<*>, port=<*>, mad status <*>",
+        "modified": "[<*>:<*>]: Failed to bring port to ACTIVE for node=<*>, port= <*>, mad status <*>"
+      },
+      {
+        "event_id": "E869",
+        "original": "UDP: short packet: From <*> <*> to <*>",
+        "modified": "UDP: short packet: From <*>:<*> <*>/<*> to <*>:<*>"
+      },
+      {
+        "event_id": "E807",
+        "original": "<*>(<*>): Unknown cmd <*> <*> <*> on <*>",
+        "modified": "<*>(<*>): Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>"
+      },
+      {
+        "event_id": "E1155",
+        "original": "<*>: message-id=<*>",
+        "modified": "<*>: message-id=<<*>>"
+      },
+      {
+        "event_id": "E833",
+        "original": "access denied for user <*> from <*>",
+        "modified": "access denied for user `#<*>#' from `<*>'"
+      },
+      {
+        "event_id": "E283",
+        "original": "DHCPOFFER from <*> <*> <*> <*> dhclient: DHCPREQUEST on eth0 to <*> port <*>",
+        "modified": "DHCPOFFER from <*> <<*>><*> <*> <*> dhclient: DHCPREQUEST on eth0 to #<*># port <*>"
+      },
+      {
+        "event_id": "E630",
+        "original": "megaraid: aborting-<*> cmd=<*> <c=<*> t=<*> l=<*>",
+        "modified": "megaraid: aborting-<*> cmd=<*> <c=<*> t=<*> l=<*>>"
+      },
+      {
+        "event_id": "E3",
+        "original": "obsd_client: obsd_client: command timed out SETATTR options=<*> obj_id=<*> get_attributes=<*> set_attributes=<*> realmname panfs1 dev_id=<*> flags=<*>=(<*>) <*>, <*>, <*> allocated_by_sam=<*>",
+        "modified": "obsd_client: obsd_client: command timed out SETATTR options=<*> obj_id=<*> get_attributes=<*> set_attributes=<*> realmname panfs1 dev_id=<*> flags=<*> res_buffer=(<*>:<*>) callback(_{<*>}_, <*>, <*>) allocated_by_sam=<*>"
+      },
+      {
+        "event_id": "E13",
+        "original": "pan_ips: error -- IPS command timeout command timed out expire_time=<*> now=<*> lifetime=<*> grace_timeouts=<*> cd=<*> session=<*> (initiator:<*> <-> target-OSD:<*>) id=(<*>)",
+        "modified": "pan_ips: error -- IPS command timeout command timed out expire_time=<*> now=<*> lifetime=<*> grace_timeouts=<*> cd=<*> session=<*> (initiator:<*> <-> target-OSD:#<*>#:<*>) id=(<*>)"
+      },
+      {
+        "event_id": "E6",
+        "original": "obsd_client: obsd_client: command timed out <*> options=<*> obj_id=<*> starting_byte=<*> length=<*> get_attributes=<*> realmname <*> dev_id=<*> flags=<*> res_buffer=(<*>) callback(<*>, <*>, <*>) allocated_by_sam=<*>",
+        "modified": "obsd_client: obsd_client: command timed out <*> options=<*> obj_id=<*> starting_byte=<*> length=<*> get_attributes=<*> realmname <*> dev_id=<*> flags=<*> res_buffer=(<*>) callback(_{<*>}_, <*>, <*>) allocated_by_sam=<*>"
+      },
+      {
+        "event_id": "E28",
+        "original": "obsd_client: obsd_client: command timed out GETATTR options=<*>=<*> flags=<*> res_buffer=(<*>) callback(<*>) allocated_by_sam=<*>",
+        "modified": "obsd_client: obsd_client: command timed out GETATTR options=<*> obj_id=<*> get_attributes=<*> realmname <*> dev_id=<*> flags=<*> res_buffer=(<*>) callback(_{<*>}_, <*>, <*>) allocated_by_sam=<*>"
+      },
+      {
+        "event_id": "E183",
+        "original": "VIPKL(<*>): <*>[<*>]: make_iobuf: MOSAL_iobuf_register failed: va=<*>=<*>",
+        "modified": "VIPKL(<*>): <*>[<*>]: make_iobuf: MOSAL_iobuf_register failed: va=<*>size=<*>"
+      },
+      {
+        "event_id": "E507",
+        "original": "ACPI: PCI Interrupt Link [LNKA] (IRQs <*>) <*>",
+        "modified": "ACPI: PCI Interrupt Link [LNKA] (IRQs <*>) *<*>"
+      },
+      {
+        "event_id": "E803",
+        "original": "PCI Interrupt Link [<*>] (IRQs <*>) <*>",
+        "modified": "PCI Interrupt Link [<*>] (IRQs <*>) *<*>"
+      },
+      {
+        "event_id": "E873",
+        "original": "<*>-ioctl (<*>-<*>-<*>) initialised: <*>",
+        "modified": "<*>-ioctl (<*>-<*>-<*>) initialised: #<*>#@#<*>#"
+      },
+      {
+        "event_id": "E1176",
+        "original": "bad username <*>",
+        "modified": "bad username [<*>]"
+      },
+      {
+        "event_id": "E452",
+        "original": "LustreError: <*>:(<*>) OBD device <*> still set up",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) OBD device <*> still set up"
+      },
+      {
+        "event_id": "E282",
+        "original": "LustreError: <*>:(<*>) OBD <*> is still busy with <*> references",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) OBD <*> is still busy with <*> references"
+      },
+      {
+        "event_id": "E565",
+        "original": "<*>: from=<*>, size=<*>, nrcpt=<*> (queue active)",
+        "modified": "<*>: from=<#<*>#@#<*>#>, size=<*>, nrcpt=<*> (queue active)"
+      },
+      {
+        "event_id": "E510",
+        "original": "connect to <*>: Connection timed out (port <*>)",
+        "modified": "connect to #<*>#[#<*>#]: Connection timed out (port <*>)"
+      },
+      {
+        "event_id": "E1149",
+        "original": "MParUpdate(<*>)",
+        "modified": "MParUpdate(<*>,<*>)"
+      },
+      {
+        "event_id": "E938",
+        "original": "[<*>]: No topology change",
+        "modified": "[<*>:<*>]: No topology change"
+      },
+      {
+        "event_id": "E535",
+        "original": "[<*>]: No configuration change required",
+        "modified": "[<*>:<*>]: No configuration change required"
+      },
+      {
+        "event_id": "E169",
+        "original": "[<*>]: ********************** NEW SWEEP ********************",
+        "modified": "[<*>:<*>]: ********************** NEW SWEEP ********************"
+      },
+      {
+        "event_id": "E472",
+        "original": "Lustre: OBD class driver Build Version: <*>, <*>",
+        "modified": "Lustre: OBD class driver Build Version: <*>, #<*>#@#<*>#"
+      },
+      {
+        "event_id": "E1017",
+        "original": "<*>-rh1 (Release Date: <*>)",
+        "modified": "#<*>#-rh1 (Release Date: <*>)"
+      },
+      {
+        "event_id": "E694",
+        "original": "[<*>]: async events require sweep",
+        "modified": "[<*>:<*>]: async events require sweep"
+      },
+      {
+        "event_id": "E297",
+        "original": "[<*>]: Failed to GetNodeInfo() because of NO RESPONSE",
+        "modified": "[<*>:<*>]: Failed to GetNodeInfo() because of NO RESPONSE"
+      },
+      {
+        "event_id": "E1",
+        "original": "mount.panfs warning: This mount still may succeed, but one or more local interfaces (listed below) failed communicate with the Panasas realm during mount. This suggests that a route cannot be established between these local interface(s) and the system. A client sends a list of IP addresses on which the Panasas storage system may establish a connection. If any one of these addresses should be excluded from the mount time check, use the 'callback-network-disallow' or 'callback-address-disallow' mount options. See 'man <*> mount.panfs' for more details on PanFS mount options. Excluding the interface from the check at mount time <*> avoid long running mount commands.",
+        "modified": "mount.panfs warning: This mount still may succeed, but one or more local interfaces (listed below) failed communicate with the Panasas realm during mount. This suggests that a route cannot be established between these local interface(s) and the system. A client sends a list of IP addresses on which the Panasas storage system may establish a connection. If any one of these addresses should be excluded from the mount time check, use the 'callback-network-disallow' or 'callback-address-disallow' mount options. See 'man <*> mount.panfs' for more details on PanFS mount options. Excluding the interface from the check at mount time #<*># avoid long running mount commands."
+      },
+      {
+        "event_id": "E592",
+        "original": "authentication cancelled by user: <*>",
+        "modified": "authentication cancelled by user: '<*>'"
+      },
+      {
+        "event_id": "E620",
+        "original": "[<*>]: Switch reported state change",
+        "modified": "[<*>:<*>]: Switch reported state change"
+      },
+      {
+        "event_id": "E225",
+        "original": "[<*>]: No spine present in chassis, splitting switch_elem",
+        "modified": "[<*>:<*>]: No spine present in chassis, splitting switch_elem"
+      },
+      {
+        "event_id": "E173",
+        "original": "[<*>]: Failed to bring port to ACTIVE for node=<*>, port=<*>, no response",
+        "modified": "[<*>:<*>]: Failed to bring port to ACTIVE for node=<*>, port= <*>, no response"
+      },
+      {
+        "event_id": "E839",
+        "original": "[<*>]: Set LID failed because <*>",
+        "modified": "[<*>:<*>]: Set LID failed because <*>"
+      },
+      {
+        "event_id": "E163",
+        "original": "[<*>]: Failed to negotiate MTU, op_vl for node=<*>, port=<*>, no response",
+        "modified": "[<*>:<*>]: Failed to negotiate MTU, op_vl for node=<*>, port= <*>, no response"
+      },
+      {
+        "event_id": "E976",
+        "original": "<*> login denied for user <*>.",
+        "modified": "<*> login denied for user '<*>'."
+      },
+      {
+        "event_id": "E760",
+        "original": "[<*>]: hop_count: <*>, direct_path: <*>",
+        "modified": "[<*>:<*>]: hop_count: <*>, direct_path: <*>"
+      },
+      {
+        "event_id": "E515",
+        "original": "[<*>]: Failed to set MFT to zero for switch=<*>",
+        "modified": "[<*>:<*>]: Failed to set MFT to zero for switch=<*>"
+      },
+      {
+        "event_id": "E979",
+        "original": "MSRProcessConfig(<*>,<*>)",
+        "modified": "MSRProcessConfig(<*>,<*>=<*>)"
+      },
+      {
+        "event_id": "E1059",
+        "original": "MParInitialize(<*>)",
+        "modified": "MParInitialize(<*>,<*>)"
+      },
+      {
+        "event_id": "E32",
+        "original": "sam raid obsd error on write: local_status <*> (rmm: <*>), obsd_error <*> (<*>) virtual object <*> index <*>, stor_op <*>, component device <*>",
+        "modified": "sam raid obsd error on write: local_status <*> (rmm: <*>), obsd_error <*> (<*>) virtual object <*> index <*>, stor_op <*>, component device <*>(<*>)"
+      },
+      {
+        "event_id": "E634",
+        "original": "Lustre: <*>:(<*>) <*>: connection lost to <*>",
+        "modified": "Lustre: <*>:<*>:(<*>:<*>:<*>) <*>: connection lost to <*>"
+      },
+      {
+        "event_id": "E16",
+        "original": "LustreError: <*> ### lock timed out (enqueued <*> ago), entering recovery for <*> ns: <*> lock: <*> lrc: <*> mode: <*> res: <*> rrc: <*> type: <*> flags: <*> remote: <*> expref: <*> pid: <*>",
+        "modified": "LustreError: <*>:<*>:(<*>:<*>:<*>) ### lock timed out (enqueued <*> ago), entering recovery for <*> ns: <*> lock: <*> lrc: <*> mode: <*> res: <*> rrc: <*> type: <*> flags: <*> remote: <*> expref: <*> pid: <*>"
+      },
+      {
+        "event_id": "E893",
+        "original": "synchronized to <*> stratum <*>",
+        "modified": "synchronized to <*>, stratum <*>"
+      },
+      {
+        "event_id": "E451",
+        "original": "IOAPIC[<*>]: apic_id <*>, version <*>, address <*>, GSI <*>",
+        "modified": "IOAPIC[<*>]: apic_id <*>, version <*>, address <*>, GSI <*>-<*>"
+      },
+      {
+        "event_id": "E250",
+        "original": "Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init)",
+        "modified": "Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init)"
+      },
+      {
+        "event_id": "E888",
+        "original": "Processor <*> (supports C1)",
+        "modified": "Processor [<*>] (supports C1)"
+      },
+      {
+        "event_id": "E1122",
+        "original": "<*> (Release Date: <*>)",
+        "modified": "#<*># (Release Date: <*>)"
+      },
+      {
+        "event_id": "E87",
+        "original": "[INFO]: Program switch port state to down, node=<*>, port=<*>, due to non-responding CA",
+        "modified": "[INFO]: Program switch port state to down, node=<*>, port= <*>, due to non-responding CA"
+      },
+      {
+        "event_id": "E830",
+        "original": "TCP: drop open request from <*>",
+        "modified": "TCP: drop open request from <*>/<*>"
+      },
+      {
+        "event_id": "E1195",
+        "original": "<*>: uid=<*> from=<*>",
+        "modified": "<*>: uid=<*> from=<<*>>"
+      },
+      {
+        "event_id": "E473",
+        "original": "warning: <*> message has been queued for <*> days",
+        "modified": "warning: <*>: message has been queued for <*> days"
+      },
+      {
+        "event_id": "E368",
+        "original": "warning: open active <*> No such file or directory",
+        "modified": "warning: open active <*>: No such file or directory"
+      },
+      {
+        "event_id": "E198",
+        "original": "Bootdata ok (command line is initrd=<*> console=<*> BOOT_IMAGE=<*>)",
+        "modified": "Bootdata ok (command line is initrd=<*> console=<*> BOOT_IMAGE=<*> )"
+      },
+      {
+        "event_id": "E570",
+        "original": "mount: special device <*> does not exist",
+        "modified": "mount: special device LABEL=<*> does not exist"
+      },
+      {
+        "event_id": "E559",
+        "original": "INFO: parameter <*> assigned int value <*>",
+        "modified": "INFO: parameter '<*>' assigned int value <*>"
+      },
+      {
+        "event_id": "E930",
+        "original": "INFO: new class <*> added",
+        "modified": "INFO: new class '<*>' added"
+      },
+      {
+        "event_id": "E533",
+        "original": "WARNING: cannot load FS file <*> for slot <*>",
+        "modified": "WARNING: cannot load FS file '<*>' for slot <*>"
+      },
+      {
+        "event_id": "E894",
+        "original": "<*>: updated timestamp file <*>",
+        "modified": "<*>: updated timestamp file `<*>'"
+      },
+      {
+        "event_id": "E345",
+        "original": "<*> available (<*> kernel code, <*> reserved, <*> data, <*> init)",
+        "modified": "<*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init)"
+      },
+      {
+        "event_id": "E790",
+        "original": "mount to NFS server <*> failed",
+        "modified": "mount to NFS server '<*>' failed"
+      },
+      {
+        "event_id": "E390",
+        "original": "mount to NFS server <*> failed: server is down.",
+        "modified": "mount to NFS server '<*>' failed: server is down."
+      },
+      {
+        "event_id": "E1110",
+        "original": "MPBSNodeLoad(<*>)",
+        "modified": "MPBSNodeLoad(<*>,<*>,<*>,<*>)"
+      },
+      {
+        "event_id": "E470",
+        "original": "Internet Systems Consortium DHCP Server <*>",
+        "modified": "Internet Systems Consortium DHCP Server V<*>"
+      },
+      {
+        "event_id": "E388",
+        "original": "configure: keyword <*> unknown, line ignored",
+        "modified": "configure: keyword \"<*>\" unknown, line ignored"
+      },
+      {
+        "event_id": "E1140",
+        "original": "IA32 emulation <*>",
+        "modified": "IA32 emulation $Id: <*>,v <*> <*> <*> <*> Exp $"
+      },
+      {
+        "event_id": "E108",
+        "original": "Mellanox Tavor Device Driver is creating device <*> (domain=<*>, bus=<*>, devfn=<*>)",
+        "modified": "Mellanox Tavor Device Driver is creating device \"<*>\" (domain=<*>, bus=<*>, devfn=<*>)"
+      },
+      {
+        "event_id": "E971",
+        "original": "Real Time Clock Driver <*>",
+        "modified": "Real Time Clock Driver v<*>"
+      },
+      {
+        "event_id": "E683",
+        "original": "Security Scaffold <*> initialized",
+        "modified": "Security Scaffold v<*> initialized"
+      },
+      {
+        "event_id": "E332",
+        "original": "USB Universal Host Controller Interface driver <*>",
+        "modified": "USB Universal Host Controller Interface driver v<*>"
+      },
+      {
+        "event_id": "E625",
+        "original": "device-mapper: <*> initialised: dm-<*>",
+        "modified": "device-mapper: <*> initialised: dm-#<*>#@#<*>#"
+      },
+      {
+        "event_id": "E1018",
+        "original": "<*>: <*>:USB HID core driver",
+        "modified": "<*>: v<*>:USB HID core driver"
+      },
+      {
+        "event_id": "E731",
+        "original": "megaraid cmm: <*> (Release Date: <*>)",
+        "modified": "megaraid cmm: #<*># (Release Date: <*>)"
+      },
+      {
+        "event_id": "E832",
+        "original": "megaraid: <*> (Release Date: <*>)",
+        "modified": "megaraid: #<*># (Release Date: <*>)"
+      },
+      {
+        "event_id": "E4",
+        "original": "Instrumentation Service EventID: <*> Temperature sensor returned to a normal value Sensor location: <*> Chassis location: <*> Previous state was: <*> Temperature sensor value (in Degrees Celsius): <*>",
+        "modified": "Instrumentation Service EventID: <*> Temperature sensor returned to a normal value Sensor location: <*> Temp Chassis location: <*> Previous state was: <*> Temperature sensor value (in Degrees Celsius): <*>"
+      },
+      {
+        "event_id": "E947",
+        "original": "DSDT (<*> DELL PE BKC <*> MSFT <*>) @ <*>",
+        "modified": "DSDT (v<*> DELL PE BKC <*> MSFT <*>) @ <*>"
+      },
+      {
+        "event_id": "E946",
+        "original": "FADT (<*> DELL PE BKC <*> MSFT <*>) @ <*>",
+        "modified": "FADT (v<*> DELL PE BKC <*> MSFT <*>) @ <*>"
+      },
+      {
+        "event_id": "E945",
+        "original": "HPET (<*> DELL PE BKC <*> MSFT <*>) @ <*>",
+        "modified": "HPET (v<*> DELL PE BKC <*> MSFT <*>) @ <*>"
+      },
+      {
+        "event_id": "E624",
+        "original": "<*> driver <*> ports, IRQ sharing enabled",
+        "modified": "<*> driver $Revision: <*> $ <*> ports, IRQ sharing enabled"
+      },
+      {
+        "event_id": "E882",
+        "original": "Kernel logging <*> stopped.",
+        "modified": "Kernel logging (<*>) stopped."
+      },
+      {
+        "event_id": "E395",
+        "original": "Device: <*>, is SMART capable. Adding to <*> list.",
+        "modified": "Device: <*>, is SMART capable. Adding to \"<*>\" list."
+      },
+      {
+        "event_id": "E978",
+        "original": "ioc0: <*>: Capabilities=<*>",
+        "modified": "ioc0: <*>: Capabilities={<*>}"
+      },
+      {
+        "event_id": "E1112",
+        "original": "protections[]: <*>",
+        "modified": "protections[]: <*> <*> <*>"
+      },
+      {
+        "event_id": "E290",
+        "original": "process <*> is using obsolete setsockopt SO_BSDCOMPAT",
+        "modified": "process `<*>' is using obsolete setsockopt SO_BSDCOMPAT"
+      },
+      {
+        "event_id": "E398",
+        "original": "<*>: from=<*>, status=expired, returned to sender",
+        "modified": "<*>: from=<<*>>, status=expired, returned to sender"
+      },
+      {
+        "event_id": "E682",
+        "original": "<*> rejecting I/O to offline device",
+        "modified": "<*>: rejecting I/O to offline device"
+      },
+      {
+        "event_id": "E107",
+        "original": "mount.panfs error: cannot find object indicated by path <*> (<*> (bindcache: <*>))",
+        "modified": "mount.panfs error: cannot find object indicated by path '<*>' (<*> (bindcache: <*>))"
+      },
+      {
+        "event_id": "E594",
+        "original": "cannot lock <*> - another mom running",
+        "modified": "cannot lock '<*>' - another mom running"
+      },
+      {
+        "event_id": "E46",
+        "original": "Failed to start message bus: The pid file <*> exists, if the message bus is not running, remove this file",
+        "modified": "Failed to start message bus: The pid file \"<*>\" exists, if the message bus is not running, remove this file"
+      },
+      {
+        "event_id": "E331",
+        "original": "INFO: server started on host <*> (Primary Server)",
+        "modified": "INFO: server started on host '<*>' (Primary Server)"
+      },
+      {
+        "event_id": "E982",
+        "original": "MRMProcessConfig(<*>,<*>)",
+        "modified": "MRMProcessConfig(<*>,TYPE=<*>)"
+      },
+      {
+        "event_id": "E357",
+        "original": "INFO: executing scheduler from <*> under UID <*> GID <*>",
+        "modified": "INFO: executing scheduler from '<*>' under UID <*> GID <*>"
+      },
+      {
+        "event_id": "E542",
+        "original": "INFO: new file <*> cached in slot <*> (<*> bytes)",
+        "modified": "INFO: new file '<*>' cached in slot <*> (<*> bytes)"
+      },
+      {
+        "event_id": "E923",
+        "original": "INFO: new file <*> opened",
+        "modified": "INFO: new file '<*>' opened"
+      },
+      {
+        "event_id": "E1060",
+        "original": "MPBSInitialize(<*>)",
+        "modified": "MPBSInitialize(<*>,<*>,<*>)"
+      },
+      {
+        "event_id": "E1199",
+        "original": "MParAdd(<*>)",
+        "modified": "MParAdd(<*>,<*>)"
+      },
+      {
+        "event_id": "E623",
+        "original": "INFO: queue <*> started state set to <*>",
+        "modified": "INFO: queue '<*>' started state set to <*>"
+      },
+      {
+        "event_id": "E1013",
+        "original": "MPBSClusterQuery(<*>)",
+        "modified": "MPBSClusterQuery(<*>,<*>,<*>,<*>)"
+      },
+      {
+        "event_id": "E1137",
+        "original": "MPBSGetData(<*>)",
+        "modified": "MPBSGetData(<*>,<*>)"
+      },
+      {
+        "event_id": "E970",
+        "original": "MPBSLoadQueueInfo(<*>)",
+        "modified": "MPBSLoadQueueInfo(<*>,<*>,<*>,<*>)"
+      },
+      {
+        "event_id": "E963",
+        "original": "MPBSWorkloadQuery(<*>)",
+        "modified": "MPBSWorkloadQuery(<*>,<*>,<*>,<*>,<*>)"
+      },
+      {
+        "event_id": "E203",
+        "original": "INFO: current util[<*>]: <*> (<*>%) PH: <*>% active jobs: <*> of <*> (completed: <*>)",
+        "modified": "INFO: current util[<*>]: <*>/<*> (<*>%) PH: <*>% active jobs: <*> of <*> (completed: <*>)"
+      },
+      {
+        "event_id": "E1135",
+        "original": "MPSIFromXML(<*>)",
+        "modified": "MPSIFromXML(<*>,<*>)"
+      },
+      {
+        "event_id": "E1153",
+        "original": "MRMFromXML(<*>)",
+        "modified": "MRMFromXML(<*>,<*>)"
+      },
+      {
+        "event_id": "E256",
+        "original": "Unknown username <*> in message bus configuration file",
+        "modified": "Unknown username \"<*>\" in message bus configuration file"
+      },
+      {
+        "event_id": "E281",
+        "original": "EXT3-fs error (device <*>): <*>: reading directory <*> offset <*>",
+        "modified": "EXT3-fs error (device <*>): <*>: reading directory #<*> offset <*>"
+      },
+      {
+        "event_id": "E1124",
+        "original": "[CONF]: [<*>]: copy <*> <*>",
+        "modified": "[CONF]: [<*>]: copy <*> config:<*>"
+      },
+      {
+        "event_id": "E1081",
+        "original": "[INFO]: Web Agent <*>",
+        "modified": "[INFO]: Web Agent v<*>"
+      },
+      {
+        "event_id": "E48",
+        "original": "fs_client_writepage: llapi_io_sync failed (<*> (SM: unspecified internal error)); data <*> be dropped",
+        "modified": "fs_client_writepage: llapi_io_sync failed (<*> (SM: unspecified internal error)); data #<*># be dropped"
+      },
+      {
+        "event_id": "E50",
+        "original": "obj_id: <*>, mgr_id: <*>, cb_id: <*>, cb_type: <*>, desired_cb_type: <*>, offset:<*>, length:<*>, flags:<*>, args_flags: <*>, <*>",
+        "modified": "obj_id: <*>, mgr_id: <*>(<*>), cb_id: <*>, cb_type: <*>, desired_cb_type: <*>, offset:<*>, length:<*>, flags:<*>, args_flags: <*>, <*>"
+      },
+      {
+        "event_id": "E22",
+        "original": "LustreError: Connection to service <*> via nid <*> was lost; in progress operations using this service <*> wait for recovery to complete.",
+        "modified": "LustreError: Connection to service <*> via nid <*> was lost; in progress operations using this service #<*># wait for recovery to complete."
+      },
+      {
+        "event_id": "E373",
+        "original": "VIPKL(<*>): [create_mr] MM_bld_hh_mr failed (<*>)",
+        "modified": "VIPKL(<*>): [create_mr] MM_bld_hh_mr failed (<*>:<*>)"
+      },
+      {
+        "event_id": "E104",
+        "original": "Bootdata ok (command line is initrd=<*> console=<*> console=<*>,<*> quiet BOOT_IMAGE=<*>)",
+        "modified": "Bootdata ok (command line is initrd=<*> console=<*> console=<*>,<*> quiet BOOT_IMAGE=<*> )"
+      },
+      {
+        "event_id": "E200",
+        "original": "[<*>]: Failed discover node test, node <*>, port_num= <*>, error code <*>",
+        "modified": "[<*>:<*>]: Failed discover node test, node <*>, port_num= <*>, error code <*>"
+      },
+      {
+        "event_id": "E216",
+        "original": "[<*>]: Failed to GetPortInfo() - hop_count: <*>, direct_path: <*>",
+        "modified": "[<*>:<*>]: Failed to GetPortInfo() - hop_count: <*>, direct_path: <*>"
+      },
+      {
+        "event_id": "E172",
+        "original": "[<*>]: Force port to go down due to LID conflict, node - GUID=<*>, port=<*>",
+        "modified": "[<*>:<*>]: Force port to go down due to LID conflict, node - GUID=<*>, port=<*>"
+      },
+      {
+        "event_id": "E61",
+        "original": "[<*>]: Program port state, node=<*>, port=<*>, current state <*>, neighbor node=<*>, port=<*>, current state <*>",
+        "modified": "[<*>:<*>]: Program port state, node=<*>, port= <*>, current state <*>, neighbor node=<*>, port= <*>, current state <*>"
+      },
+      {
+        "event_id": "E343",
+        "original": "[<*>]: A new IB node <*> was discovered and assigned LID <*>",
+        "modified": "[<*>:<*>]: A new IB node <*> was discovered and assigned LID <*>"
+      },
+      {
+        "event_id": "E428",
+        "original": "[<*>]: An existing IB node GUID <*> LID <*> was removed",
+        "modified": "[<*>:<*>]: An existing IB node GUID <*> LID <*> was removed"
+      },
+      {
+        "event_id": "E66",
+        "original": "[<*>]: Active port(s) now in INIT state node=<*>, port=<*>, state=<*>, neighbor node=<*>, port=<*>, state=<*>",
+        "modified": "[<*>:<*>]: Active port(s) now in INIT state node=<*>, port=<*>, state=<*>, neighbor node=<*>, port=<*>, state=<*>"
+      },
+      {
+        "event_id": "E58",
+        "original": "[<*>]: Clean up SA resources for port forced down due to subnet prefix change, node - GUID=<*>, port=<*>",
+        "modified": "[<*>:<*>]: Clean up SA resources for port forced down due to subnet prefix change, node - GUID=<*>, port=<*>"
+      },
+      {
+        "event_id": "E252",
+        "original": "[<*>]: Force port (node=<*>, port=<*>, state=<*>) to DOWN because <*>.",
+        "modified": "[<*>:<*>]: Force port (node=<*>, port=<*>, state=<*>) to DOWN because (1) 1st sweep or (2) role change."
+      },
+      {
+        "event_id": "E53",
+        "original": "[<*>]: Force neighbor port (node=<*>, port=<*>, state=<*>) to DOWN because (<*>) 1st sweep or (<*>) role change.",
+        "modified": "[<*>:<*>]: Force neighbor port (node=<*>, port=<*>, state=<*>) to DOWN because (<*>) 1st sweep or (<*>) role change."
+      },
+      {
+        "event_id": "E54",
+        "original": "[<*>]: switch lid change, node - GUID=<*>, port=<*>, neighbor (nil), changing lid from <*>, back to original <*>",
+        "modified": "[<*>:<*>]: switch lid change, node - GUID=<*>, port=<*>, neighbor (nil), changing lid from <*>, back to original <*>"
+      },
+      {
+        "event_id": "E517",
+        "original": "[<*>]: Failed to set SwitchInfo on switch=<*>",
+        "modified": "[<*>:<*>]: Failed to set SwitchInfo on switch=<*>"
+      },
+      {
+        "event_id": "E704",
+        "original": "[<*>]: Failed to set LFT to switch=<*>",
+        "modified": "[<*>:<*>]: Failed to set LFT to switch=<*>"
+      },
+      {
+        "event_id": "E425",
+        "original": "[<*>]: Detect switch (LID= <*>) port state change",
+        "modified": "[<*>:<*>]: Detect switch (LID= <*>) port state change"
+      },
+      {
+        "event_id": "E78",
+        "original": "[<*>]: Clean up SA resources for port forced down due to LID conflict, node - GUID=<*>, port=<*>",
+        "modified": "[<*>:<*>]: Clean up SA resources for port forced down due to LID conflict, node - GUID=<*>, port=<*>"
+      },
+      {
+        "event_id": "E767",
+        "original": "[<*>]: IB node <*> port <*> is INIT state",
+        "modified": "[<*>:<*>]: IB node <*> port <*> is INIT state"
+      },
+      {
+        "event_id": "E95",
+        "original": "[<*>]: Force port (node=<*>, port=<*>) to DOWN because state(<*>) should be active but not.",
+        "modified": "[<*>:<*>]: Force port (node=<*>, port=<*>) to DOWN because state(<*>) should be active but not."
+      },
+      {
+        "event_id": "E69",
+        "original": "[<*>]: Force neighbor port (node=<*>, port=<*>) to DOWN because state(<*>) should be active but not.",
+        "modified": "[<*>:<*>]: Force neighbor port (node=<*>, port=<*>) to DOWN because state(<*>) should be active but not."
+      },
+      {
+        "event_id": "E490",
+        "original": "[<*>]: Failed to get PortInfo - GUID=<*>, port=<*>",
+        "modified": "[<*>:<*>]: Failed to get PortInfo - GUID=<*>, port=<*>"
+      },
+      {
+        "event_id": "E355",
+        "original": "[<*>]: Failed to discover management port - GUID=<*>",
+        "modified": "[<*>:<*>]: Failed to discover management port - GUID=<*>"
+      },
+      {
+        "event_id": "E429",
+        "original": "[<*>]: Failed to get PortInfo from IB node <*> port <*>",
+        "modified": "[<*>:<*>]: Failed to get PortInfo from IB node <*> port <*>"
+      },
+      {
+        "event_id": "E543",
+        "original": "[<*>]: IB node <*> port <*> had discovery timeout",
+        "modified": "[<*>:<*>]: IB node <*> port <*> had discovery timeout"
+      },
+      {
+        "event_id": "E265",
+        "original": "[<*>]: Failed to get PORT GUID for CA=<*>, port=<*>, no response",
+        "modified": "[<*>:<*>]: Failed to get PORT GUID for CA=<*>, port=<*>, no response"
+      },
+      {
+        "event_id": "E280",
+        "original": "[<*>]: Failed to set LID on switch=<*>, because NO RESPONSE",
+        "modified": "[<*>:<*>]: Failed to set LID on switch=<*>, because NO RESPONSE"
+      },
+      {
+        "event_id": "E84",
+        "original": "[<*>]: Failed to bring port to ARMED for node=<*>, port=<*>, state=<*>, hop_count=<*>, mad status <*>",
+        "modified": "[<*>:<*>]: Failed to bring port to ARMED for node=<*>, port= <*>, state= <*>, hop_count=<*>, mad status <*>"
+      },
+      {
+        "event_id": "E835",
+        "original": "[<*>]: Rediscover the subnet",
+        "modified": "[<*>:<*>]: Rediscover the subnet"
+      },
+      {
+        "event_id": "E975",
+        "original": "[<*>]: Topology changed",
+        "modified": "[<*>:<*>]: Topology changed"
+      },
+      {
+        "event_id": "E629",
+        "original": "[<*>]: Failed to set LID to CA=<*>, port=<*>",
+        "modified": "[<*>:<*>]: Failed to set LID to CA=<*>, port=<*>"
+      },
+      {
+        "event_id": "E628",
+        "original": "[<*>]: Failed to read MFT for switch=<*>",
+        "modified": "[<*>:<*>]: Failed to read MFT for switch=<*>"
+      },
+      {
+        "event_id": "E484",
+        "original": "running <*> with <*> privileges on behalf of '<*>'",
+        "modified": "running '<*>' with <*> privileges on behalf of '<*>'"
+      },
+      {
+        "event_id": "E802",
+        "original": "Updated timestamp for job <*> to <*>",
+        "modified": "Updated timestamp for job `<*>' to <*>"
+      },
+      {
+        "event_id": "E442",
+        "original": "[INFO]: Change AdminStatus on <*> - new value= <*>",
+        "modified": "[INFO]: Change AdminStatus on (<*>) - new value= <*>"
+      },
+      {
+        "event_id": "E193",
+        "original": "You can test the <*> daemon with the benchmarks in the <*> directory:",
+        "modified": "You can test the <*> daemon with the benchmarks in the '<*>' directory:"
+      },
+      {
+        "event_id": "E891",
+        "original": "Lustre: Echo OBD driver; <*>",
+        "modified": "Lustre: Echo OBD driver; #<*>#@#<*>#"
+      },
+      {
+        "event_id": "E386",
+        "original": "panfs: no version for <*> found: kernel tainted.",
+        "modified": "panfs: no version for \"<*>\" found: kernel tainted."
+      },
+      {
+        "event_id": "E558",
+        "original": "Received <*> signal... shutting down...",
+        "modified": "Received <*> or <*> signal... shutting down..."
+      },
+      {
+        "event_id": "E715",
+        "original": "Key exchange failed in remote: <*>",
+        "modified": "Key exchange failed in remote: '<*>'"
+      },
+      {
+        "event_id": "E908",
+        "original": "LustreError: <*>:(<*>) LBUG",
+        "modified": "LustreError: <*>:(<*>:<*>:<*>) LBUG"
+      },
+      {
+        "event_id": "E364",
+        "original": "dcdbas: no version for <*> found: kernel tainted.",
+        "modified": "dcdbas: no version for \"<*>\" found: kernel tainted."
+      },
+      {
+        "event_id": "E764",
+        "original": "Can't callback <*> (<*>), giving up.",
+        "modified": "Can't callback <*> (<*>,<*>), giving up."
+      },
+      {
+        "event_id": "E1090",
+        "original": "INFO: string <*> -> <*>",
+        "modified": "INFO: string '<*>' -> <*>"
+      },
+      {
+        "event_id": "E841",
+        "original": "Booting processor <*> rip <*> rsp <*>",
+        "modified": "Booting processor <*>/<*> rip <*> rsp <*>"
+      },
+      {
+        "event_id": "E901",
+        "original": "Processor <*> <*> APIC version <*>",
+        "modified": "Processor #<*> <*> APIC version <*>"
+      },
+      {
+        "event_id": "E934",
+        "original": "/: clean, <*> files, <*> blocks",
+        "modified": "/: clean, <*>/<*> files, <*>/<*> blocks"
+      },
+      {
+        "event_id": "E988",
+        "original": "<*>: clean, <*> files, <*> blocks",
+        "modified": "<*>: clean, <*>/<*> files, <*>/<*> blocks"
+      },
+      {
+        "event_id": "E701",
+        "original": "<*> SUConfigProcessConfigFile(<*>)",
+        "modified": "<*> <*> SUConfigProcessConfigFile(<*>)"
+      },
+      {
+        "event_id": "E734",
+        "original": "INFO: P[<*>]: Total <*> Up <*> Idle <*> Active <*>",
+        "modified": "INFO: P[<*>]: Total <*>:<*> Up <*>:<*> Idle <*>:<*> Active <*>:<*>"
+      },
+      {
+        "event_id": "E1079",
+        "original": "ACPI: (supports <*>)",
+        "modified": "ACPI: (supports <*> <*> <*>)"
+      },
+      {
+        "event_id": "E1221",
+        "original": "mtrr: <*> (<*>)",
+        "modified": "mtrr: v<*> (<*>)"
+      },
+      {
+        "event_id": "E240",
+        "original": "ts_kernel_services: module license <*> taints kernel.",
+        "modified": "ts_kernel_services: module license '<*>' taints kernel."
+      },
+      {
+        "event_id": "E1087",
+        "original": "(CRON) STARTUP (<*>)",
+        "modified": "(CRON) STARTUP (V<*>)"
+      },
+      {
+        "event_id": "E385",
+        "original": "Password authentication for user <*> accepted.",
+        "modified": "Password authentication for user #<*># accepted."
+      },
+      {
+        "event_id": "E1038",
+        "original": "PCI Root Bridge [<*>] (<*>)",
+        "modified": "PCI Root Bridge [<*>] (<*>:<*>)"
+      },
+      {
+        "event_id": "E648",
+        "original": "module license <*> taints kernel.",
+        "modified": "module license '<*>' taints kernel."
+      },
+      {
+        "event_id": "E503",
+        "original": "panfs: module license <*> taints kernel.",
+        "modified": "panfs: module license '<*>' taints kernel."
+      },
+      {
+        "event_id": "E506",
+        "original": "Lustre: Lustre Lite Client File System; <*>",
+        "modified": "Lustre: Lustre Lite Client File System; #<*>#@#<*>#"
+      },
+      {
+        "event_id": "E1092",
+        "original": "MSysRegEvent(<*>,<*>)",
+        "modified": "MSysRegEvent(<*>,<*>,<*>,<*>)"
+      },
+      {
+        "event_id": "E346",
+        "original": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",
+        "modified": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<<*>>, relay=<*>"
+      },
+      {
+        "event_id": "E310",
+        "original": "EXT3-fs: write access <*> be enabled during recovery.",
+        "modified": "EXT3-fs: write access #<*># be enabled during recovery."
+      },
+      {
+        "event_id": "E665",
+        "original": "probe new device <*>: bus <*>:slot <*>:func <*>",
+        "modified": "probe new device <*>:<*>:<*>:<*>: bus <*>:slot <*>:func <*>"
+      },
+      {
+        "event_id": "E144",
+        "original": "[<*>]: Active state mismatch GUID=<*>, port=<*>, state <*>, GUID=<*>, port=<*>, state <*>",
+        "modified": "[<*>:<*>]: Active state mismatch GUID=<*>, port=<*>, state <*>, GUID=<*>, port=<*>, state <*>"
+      },
+      {
+        "event_id": "E468",
+        "original": "dcdbas: module license <*> taints kernel.",
+        "modified": "dcdbas: module license '<*>' taints kernel."
+      },
+      {
+        "event_id": "E88",
+        "original": "pan_ips: error -- cmd taskmgmt, <*> (pan_sock: connection reset by peer), err_loc=<*>, <*>",
+        "modified": "pan_ips: error -- cmd taskmgmt, <*> (pan_sock: connection reset by peer), err_loc=<*>, <*>:<*>"
+      },
+      {
+        "event_id": "E49",
+        "original": "pan_ips: error -- nexus initiator connect callback, <*> (pan_sock: network unreachable), err_loc=<*>, <*>",
+        "modified": "pan_ips: error -- nexus initiator connect callback, <*> (pan_sock: network unreachable), err_loc=<*>, <*>:<*>"
+      },
+      {
+        "event_id": "E89",
+        "original": "pan_ips: error -- tx sched dequeue and send mod, <*> (pan_sock: timeout), err_loc=<*>, <*>",
+        "modified": "pan_ips: error -- tx sched dequeue and send mod, <*> (pan_sock: timeout), err_loc=<*>, <*>:<*>"
+      },
+      {
+        "event_id": "E74",
+        "original": "pan_ips: error -- worker initiator write callback, <*> (pan_sock: timeout), err_loc=<*>, <*>",
+        "modified": "pan_ips: error -- worker initiator write callback, <*> (pan_sock: timeout), err_loc=<*>, <*>:<*>"
+      }
+    ],
+    "Zookeeper": [
+      {
+        "event_id": "E55",
+        "original": "New election. My id = <*>, proposed <*>",
+        "modified": "New election. My id = <*>, proposed zxid=<*>"
+      },
+      {
+        "event_id": "E59",
+        "original": "Received connection request <*>",
+        "modified": "Received connection request /<*>:<*>"
+      },
+      {
+        "event_id": "E45",
+        "original": "Accepted socket connection from <*>",
+        "modified": "Accepted socket connection from /<*>"
+      },
+      {
+        "event_id": "E15",
+        "original": "Sending snapshot last zxid of peer is <*> zxid of leader is <*> zxid of db as <*>",
+        "modified": "Sending snapshot last zxid of peer is <*> zxid of leader is <*>sent zxid of db as <*>"
+      },
+      {
+        "event_id": "E31",
+        "original": "Expiring session <*> timeout of <*> exceeded",
+        "modified": "Expiring session <*>, timeout of <*> exceeded"
+      },
+      {
+        "event_id": "E22",
+        "original": "Client attempting to establish new session at <*>",
+        "modified": "Client attempting to establish new session at /<*>"
+      },
+      {
+        "event_id": "E11",
+        "original": "Connection request from old client <*>; will be dropped if server is in r-o mode",
+        "modified": "Connection request from old client /<*>:<*>; will be dropped if server is in r-o mode"
+      },
+      {
+        "event_id": "E64",
+        "original": "******* GOODBYE <*> ********",
+        "modified": "******* GOODBYE /<*>:<*> ********"
+      },
+      {
+        "event_id": "E24",
+        "original": "Cannot open channel to <*> at election address <*>",
+        "modified": "Cannot open channel to <*> at election address /<*>:<*>"
+      }
+    ]
+  }
+}
