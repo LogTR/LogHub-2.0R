@@ -1,0 +1,91 @@
+BGL
+
+E284,Target=<*> Message=<*> JtagId = <*>
+E284,Target=<*> Message=<*> JtagId = <*>
+E284,Target=<*> Message=<*> JtagId = <*> Run environmental monitor to diagnose possible hardware failure.
+
+E258,rts: kernel terminated for reason <*>
+E258,rts: kernel terminated for reason <*>
+E258,rts: kernel terminated for reason <*>rts: bad message header: <*>
+
+E229,invalid (<*>)........................<*>
+E229,invalid (<*>)........................<*>
+E229X,invalid (<*>)...........................<*>
+
+HPC
+E66,ambient=<*>
+E66,ambient=<*>
+E66,ambient=<*> threshold exceeded
+
+HealthApp
+
+E123,registerLogCallback <*>
+E123,registerLogCallback <*> cb:<*>
+E123,registerLogCallback <*>
+
+Mac
+
+E508,network changed: <*> DNS! Proxy SMB
+E508,network changed: v4(<*>:<*>) v6(<*>:<*>) DNS! Proxy SMB
+E508,network changed: v6(<*>:<*>) DNS! Proxy SMB
+
+E518,network changed: <*> DNS Proxy SMB
+E518,network changed: v6(en0!:<*>) DNS Proxy SMB
+E518,network changed: v4(en0:<*>) v6(en0!:<*>) DNS Proxy SMB
+
+E500,network changed: <*> DNS+ Proxy+ SMB
+E500,network changed: v4(<*>) DNS+ Proxy+ SMB
+E500,network changed: v6(<*>) DNS+ Proxy+ SMB
+E500,network changed: v4(<*>) v6(<*>) DNS+ Proxy+ SMB
+
+Spark
+
+E117,Unregistering ApplicationMaster with <*>
+E117,Unregistering ApplicationMaster with SUCCEEDED
+E117,Unregistering ApplicationMaster with FAILED (diag message: <*>)
+
+Thunderbird
+
+E491,DHCPREQUEST for <*> from <*> via <*>: unknown lease <*>.
+E491,DHCPREQUEST for <*> from <*> via <*>: unknown lease <*>.
+E491,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+
+E904,DHCPREQUEST for <*> from <*> via <*>
+E904,DHCPREQUEST for <*> from <*> via <*>
+E904,DHCPREQUEST for <*> (<*>) from <*> via <*>
+
+E1214,ACPI: <*> (<*>) @ <*>
+E1214,ACPI: <*> (<*>) @ <*>
+E1214,ACPI: <*> (v<*> <*> <*> <*> <*> <*>) @ <*>
+
+E215,pan_ips: error -- cfg target addresses, <*> (Out of memory), <*>
+E215,pan_ips: error -- cfg target addresses, <*> (Out of memory), err_loc=<*> <*>:<*>
+E215,pan_ips: error -- cfg target addresses, <*> (Out of memory), err_loc=<*> <*>:<*> <<*>><*> mount.panfs: pan_ips: error -- real init, <*> (Out of memory), err_loc=<*> <*>:<*>
+
+E230,pan_ips: error -- real init, <*> (Out of memory), err_loc=<*>, <*>
+E230,pan_ips: error -- real init, <*> (Out of memory), err_loc=<*>, <*>:<*>
+E230,pan_ips: error -- real init, <*> (Out of memory), err_loc=<*>, <*>:<*> <<*>><*> mount.panfs: bindcache: failed init IPS: <*> (Out of memory)
+
+E71,Node <*> <*> <*> min:<*> low:<*> high:<*> active:<*> inactive:<*> present:<*> pages_scanned:<*> all_unreclaimable? <*>
+E71,Node <*> <*> free:<*> min:<*> low:<*> high:<*> active:<*> inactive:<*> present:<*> pages_scanned:<*> all_unreclaimable? <*>
+E71,Node <*> <*> min:<*> low:<*> high:<*> active:<*> inactive:<*> present:<*> pages_scanned:<*> all_unreclaimable? <*>
+
+E1201,Sending on <*>
+E1201,Sending on <*>/<*>/<*>/<*>
+E1201,Sending on <*>/<*>/<*>
+
+E1067,<*> pages, LIFO batch:<*>
+E1067,<*> pages, LIFO batch:<*>
+E1067,<*> zone: <*> pages, LIFO batch:<*>
+
+E422,pan_kernel: expected release: <*> release is: <*>
+E422,pan_kernel: expected release: <*> release is: <*>
+E422,pan_kernel: expected release: <*> release is: <*> <<*>><*> mount.panfs: mount.panfs warning: mounting panfs in an untested environment!!
+
+E392,mount.panfs warning: couldn't ping address <*>
+E392,mount.panfs warning: couldn't ping address <*>
+E392,mount.panfs warning: couldn't ping address <*> using <*>,
+
+E197,Package Release ID=<*> Package Description=<*> Support Log path=<*>
+E197,Package Release ID=<*> Package Description=<*>, <*> Support Log path=<*>
+E197,Package Release ID=<*> Package Description=<*>, <*> Support Log path=<*> Exit code = <*> (<*>)
