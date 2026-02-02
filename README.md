@@ -122,7 +122,7 @@ for system, modifications in refinements['modifications'].items():
 ### Handling Split Templates
 
 For split templates in `split_temp.txt`, you need to:
-1. Create new EventIds for the split templates (e.g., E284 → E284, E284X)
+1. Create new EventIds for the split templates 
 2. Re-assign logs to the appropriate new templates based on pattern matching
 
 ## Types of Refinements
